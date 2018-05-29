@@ -266,6 +266,21 @@
 <text x="6.3" y="-6.3" size="0.635" layer="27" font="vector" ratio="16" align="bottom-right">&gt;VALUE</text>
 <circle x="-5.5" y="-5.5" radius="0.5" width="0.127" layer="27"/>
 </package>
+<package name="SIT5021_5X3.2">
+<wire x1="-2.5" y1="1.6" x2="-2.5" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-1.6" x2="2.5" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-1.6" x2="2.5" y2="1.6" width="0.127" layer="21"/>
+<wire x1="2.5" y1="1.6" x2="-2.5" y2="1.6" width="0.127" layer="21"/>
+<smd name="1" x="-1.27" y="-1.1" dx="0.9" dy="1.2" layer="1"/>
+<smd name="2" x="0" y="-1.1" dx="0.9" dy="1.2" layer="1"/>
+<smd name="3" x="1.27" y="-1.1" dx="0.9" dy="1.2" layer="1"/>
+<smd name="6" x="-1.27" y="1.1" dx="0.9" dy="1.2" layer="1"/>
+<smd name="5" x="0" y="1.1" dx="0.9" dy="1.2" layer="1"/>
+<smd name="4" x="1.27" y="1.1" dx="0.9" dy="1.2" layer="1"/>
+<circle x="-2.1" y="-1.2" radius="0.1" width="0.127" layer="21"/>
+<text x="-2.7" y="0" size="0.6096" layer="25" font="vector" ratio="16" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="2.7" y="0" size="0.6096" layer="27" font="vector" ratio="16" rot="R90" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="THS788">
@@ -317,6 +332,27 @@ http://www.ti.com/lit/ds/symlink/ths788.pdf</description>
 <text x="-18.034" y="43.942" size="3.81" layer="95">&gt;NAME</text>
 <text x="0" y="0" size="3.81" layer="95" rot="R90" align="center">THS788</text>
 <pin name="TPAD" x="-20.32" y="-40.64" length="middle"/>
+</symbol>
+<symbol name="SIT5021">
+<description>SiT5021 Oscillator 1-220 MHz High Performance Differential (VC) TCXO</description>
+<pin name="OUT+" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="OUT-" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="OE" x="-12.7" y="2.54" length="middle"/>
+<pin name="VDD" x="-12.7" y="0" length="middle"/>
+<pin name="GND" x="-12.7" y="-2.54" length="middle"/>
+<wire x1="-9.398" y1="5.08" x2="-9.398" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-9.398" y1="-5.08" x2="11.938" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="11.938" y1="-5.08" x2="11.938" y2="5.08" width="0.254" layer="94"/>
+<wire x1="11.938" y1="5.08" x2="-9.398" y2="5.08" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-0.762" x2="3.81" y2="0.762" width="0.254" layer="94"/>
+<wire x1="3.81" y1="0.762" x2="6.35" y2="0.762" width="0.254" layer="94"/>
+<wire x1="6.35" y1="0.762" x2="6.35" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-0.762" x2="8.89" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="8.89" y1="-0.762" x2="8.89" y2="0.762" width="0.254" layer="94"/>
+<wire x1="8.89" y1="0.762" x2="9.652" y2="0.762" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-0.762" x2="3.048" y2="-0.762" width="0.254" layer="94"/>
+<text x="-9.398" y="5.588" size="1.778" layer="95">&gt;NAME</text>
+<text x="-9.398" y="-5.588" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -376,6 +412,29 @@ http://www.ti.com/lit/ds/symlink/ths788.pdf</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="SIT5021" prefix="G" uservalue="yes">
+<description>SiT5021 Oscillator 1-220 MHz High Performance Differential (VC) TCXO
+
+
+https://www.digikey.com/product-detail/en/sitime/SIT5021AC-2CE-33E-200.000000X/1473-30172-1-ND/7347769</description>
+<gates>
+<gate name="G$1" symbol="SIT5021" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SIT5021_5X3.2">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="OE" pad="1"/>
+<connect gate="G$1" pin="OUT+" pad="4"/>
+<connect gate="G$1" pin="OUT-" pad="5"/>
+<connect gate="G$1" pin="VDD" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -390,6 +449,7 @@ http://www.ti.com/lit/ds/symlink/ths788.pdf</description>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
 <part name="U1" library="tcspc_lib" deviceset="THS788" device=""/>
+<part name="G1" library="tcspc_lib" deviceset="SIT5021" device="" value="200MHz"/>
 </parts>
 <sheets>
 <sheet>
@@ -399,10 +459,25 @@ http://www.ti.com/lit/ds/symlink/ths788.pdf</description>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="172.72" y="0"/>
 <instance part="U1" gate="G$1" x="129.54" y="99.06"/>
+<instance part="G1" gate="G$1" x="76.2" y="139.7"/>
 </instances>
 <busses>
 </busses>
 <nets>
+<net name="N$1" class="0">
+<segment>
+<pinref part="G1" gate="G$1" pin="OUT-"/>
+<pinref part="U1" gate="G$1" pin="!MCLK"/>
+<wire x1="91.44" y1="137.16" x2="109.22" y2="137.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="MCLK"/>
+<pinref part="G1" gate="G$1" pin="OUT+"/>
+<wire x1="109.22" y1="139.7" x2="91.44" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
