@@ -384,6 +384,7 @@ UsedLibrary="C:/cygwin64/home/highv/dev/robosub/subhw-new/pcb/eaglelib/Teensy_3_
 UsedLibrary="C:/cygwin64/home/highv/dev/robosub/subhw-new/pcb/eaglelib/User-Submitted.lbr"
 UsedLibrary="C:/cygwin64/home/highv/dev/robosub/subhw-new/pcb/eaglelib/element14 - ON Semiconductor.lbr"
 UsedLibrary="C:/cygwin64/home/highv/dev/robosub/subhw-new/pcb/eaglelib/usb-fpga-2.lbr"
+UsedLibrary="C:/cygwin64/home/highv/dev/proj/TCSPC_UROP/tcspc_eaglelib/tcspc_lib.lbr"
 
 [Win_1]
 Type="Control Panel"

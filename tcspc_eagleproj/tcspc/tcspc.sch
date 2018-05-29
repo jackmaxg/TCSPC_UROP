@@ -128,6 +128,256 @@
 </deviceset>
 </devicesets>
 </library>
+<library name="tcspc_lib">
+<packages>
+<package name="S-PQFP-G100">
+<description>PowerPAD Plastic Quad Flatpack (TI)</description>
+<smd name="1" x="-6" y="-7.6" dx="0.3" dy="1.6" layer="1"/>
+<smd name="2" x="-5.5" y="-7.6" dx="0.3" dy="1.6" layer="1"/>
+<smd name="3" x="-5" y="-7.6" dx="0.3" dy="1.6" layer="1"/>
+<smd name="4" x="-4.5" y="-7.6" dx="0.3" dy="1.6" layer="1"/>
+<smd name="5" x="-4" y="-7.6" dx="0.3" dy="1.6" layer="1"/>
+<smd name="6" x="-3.5" y="-7.6" dx="0.3" dy="1.6" layer="1"/>
+<smd name="7" x="-3" y="-7.6" dx="0.3" dy="1.6" layer="1"/>
+<smd name="8" x="-2.5" y="-7.6" dx="0.3" dy="1.6" layer="1"/>
+<smd name="9" x="-2" y="-7.6" dx="0.3" dy="1.6" layer="1"/>
+<smd name="10" x="-1.5" y="-7.6" dx="0.3" dy="1.6" layer="1"/>
+<smd name="11" x="-1" y="-7.6" dx="0.3" dy="1.6" layer="1"/>
+<smd name="12" x="-0.5" y="-7.6" dx="0.3" dy="1.6" layer="1"/>
+<smd name="13" x="0" y="-7.6" dx="0.3" dy="1.6" layer="1"/>
+<smd name="14" x="0.5" y="-7.6" dx="0.3" dy="1.6" layer="1"/>
+<smd name="15" x="1" y="-7.6" dx="0.3" dy="1.6" layer="1"/>
+<smd name="16" x="1.5" y="-7.6" dx="0.3" dy="1.6" layer="1"/>
+<smd name="17" x="2" y="-7.6" dx="0.3" dy="1.6" layer="1"/>
+<smd name="18" x="2.5" y="-7.6" dx="0.3" dy="1.6" layer="1"/>
+<smd name="19" x="3" y="-7.6" dx="0.3" dy="1.6" layer="1"/>
+<smd name="20" x="3.5" y="-7.6" dx="0.3" dy="1.6" layer="1"/>
+<smd name="21" x="4" y="-7.6" dx="0.3" dy="1.6" layer="1"/>
+<smd name="22" x="4.5" y="-7.6" dx="0.3" dy="1.6" layer="1"/>
+<smd name="23" x="5" y="-7.6" dx="0.3" dy="1.6" layer="1"/>
+<smd name="24" x="5.5" y="-7.6" dx="0.3" dy="1.6" layer="1"/>
+<smd name="25" x="6" y="-7.6" dx="0.3" dy="1.6" layer="1"/>
+<smd name="26" x="7.6" y="-6" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="27" x="7.6" y="-5.5" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="28" x="7.6" y="-5" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="29" x="7.6" y="-4.5" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="30" x="7.6" y="-4" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="31" x="7.6" y="-3.5" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="32" x="7.6" y="-3" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="33" x="7.6" y="-2.5" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="34" x="7.6" y="-2" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="35" x="7.6" y="-1.5" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="36" x="7.6" y="-1" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="37" x="7.6" y="-0.5" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="38" x="7.6" y="0" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="39" x="7.6" y="0.5" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="40" x="7.6" y="1" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="41" x="7.6" y="1.5" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="42" x="7.6" y="2" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="43" x="7.6" y="2.5" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="44" x="7.6" y="3" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="45" x="7.6" y="3.5" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="46" x="7.6" y="4" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="47" x="7.6" y="4.5" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="48" x="7.6" y="5" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="49" x="7.6" y="5.5" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="50" x="7.6" y="6" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="51" x="6" y="7.6" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="52" x="5.5" y="7.6" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="53" x="5" y="7.6" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="54" x="4.5" y="7.6" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="55" x="4" y="7.6" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="56" x="3.5" y="7.6" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="57" x="3" y="7.6" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="58" x="2.5" y="7.6" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="59" x="2" y="7.6" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="60" x="1.5" y="7.6" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="61" x="1" y="7.6" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="62" x="0.5" y="7.6" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="63" x="0" y="7.6" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="64" x="-0.5" y="7.6" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="65" x="-1" y="7.6" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="66" x="-1.5" y="7.6" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="67" x="-2" y="7.6" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="68" x="-2.5" y="7.6" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="69" x="-3" y="7.6" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="70" x="-3.5" y="7.6" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="71" x="-4" y="7.6" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="72" x="-4.5" y="7.6" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="73" x="-5" y="7.6" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="74" x="-5.5" y="7.6" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="75" x="-6" y="7.6" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="76" x="-7.6" y="6" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="77" x="-7.6" y="5.5" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="78" x="-7.6" y="5" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="79" x="-7.6" y="4.5" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="80" x="-7.6" y="4" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="81" x="-7.6" y="3.5" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="82" x="-7.6" y="3" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="83" x="-7.6" y="2.5" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="84" x="-7.6" y="2" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="85" x="-7.6" y="1.5" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="86" x="-7.6" y="1" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="87" x="-7.6" y="0.5" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="88" x="-7.6" y="0" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="89" x="-7.6" y="-0.5" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="90" x="-7.6" y="-1" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="91" x="-7.6" y="-1.5" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="92" x="-7.6" y="-2" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="93" x="-7.6" y="-2.5" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="94" x="-7.6" y="-3" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="95" x="-7.6" y="-3.5" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="96" x="-7.6" y="-4" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="97" x="-7.6" y="-4.5" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="98" x="-7.6" y="-5" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="99" x="-7.6" y="-5.5" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="100" x="-7.6" y="-6" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="101" x="0" y="0" dx="6" dy="6" layer="1"/>
+<wire x1="-6.5" y1="6.5" x2="-6.5" y2="-6.5" width="0.127" layer="21"/>
+<wire x1="-6.5" y1="-6.5" x2="6.5" y2="-6.5" width="0.127" layer="21"/>
+<wire x1="6.5" y1="-6.5" x2="6.5" y2="6.5" width="0.127" layer="21"/>
+<wire x1="6.5" y1="6.5" x2="-6.5" y2="6.5" width="0.127" layer="21"/>
+<pad name="101V1" x="0" y="0" drill="0.3"/>
+<pad name="101V2" x="-0.5" y="-1" drill="0.3"/>
+<pad name="101V3" x="1" y="-0.5" drill="0.3"/>
+<pad name="101V4" x="0.5" y="1" drill="0.3"/>
+<pad name="101V5" x="-1" y="0.5" drill="0.3"/>
+<pad name="101V6" x="-1.5" y="-0.5" drill="0.3"/>
+<pad name="101V7" x="0.5" y="-1.5" drill="0.3"/>
+<pad name="101V8" x="1.5" y="0.5" drill="0.3"/>
+<pad name="101V9" x="-0.5" y="1.5" drill="0.3"/>
+<pad name="101V10" x="-1.5" y="2" drill="0.3"/>
+<pad name="101V11" x="-2" y="-1.5" drill="0.3"/>
+<pad name="101V12" x="1.5" y="-2" drill="0.3"/>
+<pad name="101V13" x="2" y="1.5" drill="0.3"/>
+<pad name="101V14" x="1" y="2" drill="0.3"/>
+<pad name="101V15" x="0" y="2.5" drill="0.3"/>
+<pad name="101V16" x="-2" y="1" drill="0.3"/>
+<pad name="101V17" x="-2.5" y="0" drill="0.3"/>
+<pad name="101V18" x="-1" y="-2" drill="0.3"/>
+<pad name="101V19" x="0" y="-2.5" drill="0.3"/>
+<pad name="101V20" x="2" y="-1" drill="0.3"/>
+<pad name="101V21" x="2.5" y="0" drill="0.3"/>
+<pad name="101V22" x="2.5" y="2.5" drill="0.3"/>
+<pad name="101V23" x="-2.5" y="2.5" drill="0.3"/>
+<pad name="101V24" x="-2.5" y="-2.5" drill="0.3"/>
+<pad name="101V25" x="2.5" y="-2.5" drill="0.3"/>
+<text x="-6.3" y="6.3" size="0.635" layer="25" font="vector" ratio="16" align="top-left">&gt;NAME</text>
+<text x="6.3" y="-6.3" size="0.635" layer="27" font="vector" ratio="16" align="bottom-right">&gt;VALUE</text>
+<circle x="-5.5" y="-5.5" radius="0.5" width="0.127" layer="27"/>
+</package>
+</packages>
+<symbols>
+<symbol name="THS788">
+<description>THS788 Quad-Channel Time Measurement Unit
+
+http://www.ti.com/lit/ds/symlink/ths788.pdf</description>
+<pin name="VCC" x="20.32" y="40.64" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND" x="20.32" y="38.1" length="middle" direction="pwr" rot="R180"/>
+<pin name="EVENT-A" x="-20.32" y="22.86" length="middle" direction="in"/>
+<pin name="!EVENT-A" x="-20.32" y="20.32" length="middle" direction="in"/>
+<pin name="EVENT-B" x="-20.32" y="15.24" length="middle" direction="in"/>
+<pin name="!EVENT-B" x="-20.32" y="12.7" length="middle" direction="in"/>
+<pin name="EVENT-C" x="-20.32" y="7.62" length="middle" direction="in"/>
+<pin name="!EVENT-C" x="-20.32" y="5.08" length="middle" direction="in"/>
+<pin name="EVENT-D" x="-20.32" y="0" length="middle" direction="in"/>
+<pin name="!EVENT-D" x="-20.32" y="-2.54" length="middle" direction="in"/>
+<pin name="RDATA-A" x="20.32" y="22.86" length="middle" direction="out" rot="R180"/>
+<pin name="!RDATA-A" x="20.32" y="20.32" length="middle" direction="out" rot="R180"/>
+<pin name="RDATA-B" x="20.32" y="15.24" length="middle" direction="out" rot="R180"/>
+<pin name="!RDATA-B" x="20.32" y="12.7" length="middle" direction="out" rot="R180"/>
+<pin name="!SYNC" x="-20.32" y="30.48" length="middle"/>
+<pin name="SYNC" x="-20.32" y="33.02" length="middle"/>
+<pin name="!MCLK" x="-20.32" y="38.1" length="middle" direction="in"/>
+<pin name="MCLK" x="-20.32" y="40.64" length="middle" direction="in"/>
+<pin name="RDATA-C" x="20.32" y="7.62" length="middle" direction="out" rot="R180"/>
+<pin name="!RDATA-C" x="20.32" y="5.08" length="middle" direction="out" rot="R180"/>
+<pin name="RDATA-D" x="20.32" y="0" length="middle" direction="out" rot="R180"/>
+<pin name="!RDATA-D" x="20.32" y="-2.54" length="middle" direction="out" rot="R180"/>
+<pin name="RCLK" x="20.32" y="-7.62" length="middle" direction="out" rot="R180"/>
+<pin name="!RCLK" x="20.32" y="-10.16" length="middle" direction="out" rot="R180"/>
+<pin name="RSTROBE-A" x="20.32" y="-15.24" length="middle" direction="out" rot="R180"/>
+<pin name="!RSTROBE-A" x="20.32" y="-17.78" length="middle" direction="out" rot="R180"/>
+<pin name="RSTROBE-B" x="20.32" y="-22.86" length="middle" direction="out" rot="R180"/>
+<pin name="!RSTROBE-B" x="20.32" y="-25.4" length="middle" direction="out" rot="R180"/>
+<pin name="RSTROBE-C" x="20.32" y="-30.48" length="middle" direction="out" rot="R180"/>
+<pin name="!RSTROBE-C" x="20.32" y="-33.02" length="middle" direction="out" rot="R180"/>
+<pin name="RSTROBE-D" x="20.32" y="-38.1" length="middle" direction="out" rot="R180"/>
+<pin name="!RSTROBE-D" x="20.32" y="-40.64" length="middle" direction="out" rot="R180"/>
+<pin name="TEMP" x="20.32" y="33.02" length="middle" direction="out" rot="R180"/>
+<pin name="OT_ALRM" x="20.32" y="30.48" length="middle" direction="out" rot="R180"/>
+<pin name="!RESET" x="-20.32" y="-15.24" length="middle" direction="in"/>
+<pin name="HDATA" x="-20.32" y="-20.32" length="middle"/>
+<pin name="HCLK" x="-20.32" y="-25.4" length="middle" direction="in"/>
+<pin name="!HSTROBE" x="-20.32" y="-30.48" length="middle" direction="in"/>
+<wire x1="-17.018" y1="43.18" x2="17.018" y2="43.18" width="0.254" layer="94"/>
+<wire x1="17.018" y1="43.18" x2="17.018" y2="-43.18" width="0.254" layer="94"/>
+<wire x1="17.018" y1="-43.18" x2="-17.018" y2="-43.18" width="0.254" layer="94"/>
+<wire x1="-17.018" y1="-43.18" x2="-17.018" y2="43.18" width="0.254" layer="94"/>
+<text x="-18.034" y="43.942" size="3.81" layer="95">&gt;NAME</text>
+<text x="0" y="0" size="3.81" layer="95" rot="R90" align="center">THS788</text>
+<pin name="TPAD" x="-20.32" y="-40.64" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="THS788" prefix="U">
+<description>THS788 Quad-Channel Time Measurement Unit
+
+http://www.ti.com/lit/ds/symlink/ths788.pdf</description>
+<gates>
+<gate name="G$1" symbol="THS788" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="S-PQFP-G100">
+<connects>
+<connect gate="G$1" pin="!EVENT-A" pad="66"/>
+<connect gate="G$1" pin="!EVENT-B" pad="63"/>
+<connect gate="G$1" pin="!EVENT-C" pad="10"/>
+<connect gate="G$1" pin="!EVENT-D" pad="13"/>
+<connect gate="G$1" pin="!HSTROBE" pad="41"/>
+<connect gate="G$1" pin="!MCLK" pad="20"/>
+<connect gate="G$1" pin="!RCLK" pad="44"/>
+<connect gate="G$1" pin="!RDATA-A" pad="79"/>
+<connect gate="G$1" pin="!RDATA-B" pad="48"/>
+<connect gate="G$1" pin="!RDATA-C" pad="97"/>
+<connect gate="G$1" pin="!RDATA-D" pad="28"/>
+<connect gate="G$1" pin="!RESET" pad="51"/>
+<connect gate="G$1" pin="!RSTROBE-A" pad="81"/>
+<connect gate="G$1" pin="!RSTROBE-B" pad="46"/>
+<connect gate="G$1" pin="!RSTROBE-C" pad="95"/>
+<connect gate="G$1" pin="!RSTROBE-D" pad="30"/>
+<connect gate="G$1" pin="!SYNC" pad="56"/>
+<connect gate="G$1" pin="EVENT-A" pad="68"/>
+<connect gate="G$1" pin="EVENT-B" pad="61"/>
+<connect gate="G$1" pin="EVENT-C" pad="8"/>
+<connect gate="G$1" pin="EVENT-D" pad="15"/>
+<connect gate="G$1" pin="GND" pad="1 2 11 12 21 25 32 35 37 39 42 55 64 65 74 75 82 84 85 87 89 92 94"/>
+<connect gate="G$1" pin="HCLK" pad="34"/>
+<connect gate="G$1" pin="HDATA" pad="33"/>
+<connect gate="G$1" pin="MCLK" pad="19"/>
+<connect gate="G$1" pin="OT_ALRM" pad="53"/>
+<connect gate="G$1" pin="RCLK" pad="45"/>
+<connect gate="G$1" pin="RDATA-A" pad="78"/>
+<connect gate="G$1" pin="RDATA-B" pad="49"/>
+<connect gate="G$1" pin="RDATA-C" pad="98"/>
+<connect gate="G$1" pin="RDATA-D" pad="27"/>
+<connect gate="G$1" pin="RSTROBE-A" pad="80"/>
+<connect gate="G$1" pin="RSTROBE-B" pad="47"/>
+<connect gate="G$1" pin="RSTROBE-C" pad="96"/>
+<connect gate="G$1" pin="RSTROBE-D" pad="29"/>
+<connect gate="G$1" pin="SYNC" pad="57"/>
+<connect gate="G$1" pin="TEMP" pad="52"/>
+<connect gate="G$1" pin="TPAD" pad="101 101V1 101V2 101V3 101V4 101V5 101V6 101V7 101V8 101V9 101V10 101V11 101V12 101V13 101V14 101V15 101V16 101V17 101V18 101V19 101V20 101V21 101V22 101V23 101V24 101V25"/>
+<connect gate="G$1" pin="VCC" pad="7 16 22 23 24 31 36 38 40 43 58 60 69 77 83 86 88 90 91 93 99"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -139,6 +389,7 @@
 </classes>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
+<part name="U1" library="tcspc_lib" deviceset="THS788" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -147,6 +398,17 @@
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="172.72" y="0"/>
+<instance part="U1" gate="G$1" x="129.54" y="99.06"/>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+<sheet>
+<plain>
+</plain>
+<instances>
 </instances>
 <busses>
 </busses>
