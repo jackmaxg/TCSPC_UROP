@@ -57,8 +57,15 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -70,6 +77,84 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="IDFDebug" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -130,7 +215,7 @@
 </library>
 <library name="tcspc_lib">
 <packages>
-<package name="S-PQFP-G100">
+<package name="S-QFP-G100">
 <description>PowerPAD Plastic Quad Flatpack (TI)</description>
 <smd name="1" x="-6" y="-7.6" dx="0.3" dy="1.6" layer="1"/>
 <smd name="2" x="-5.5" y="-7.6" dx="0.3" dy="1.6" layer="1"/>
@@ -232,36 +317,10 @@
 <smd name="98" x="-7.6" y="-5" dx="0.3" dy="1.6" layer="1" rot="R270"/>
 <smd name="99" x="-7.6" y="-5.5" dx="0.3" dy="1.6" layer="1" rot="R270"/>
 <smd name="100" x="-7.6" y="-6" dx="0.3" dy="1.6" layer="1" rot="R270"/>
-<smd name="101" x="0" y="0" dx="6" dy="6" layer="1"/>
 <wire x1="-6.5" y1="6.5" x2="-6.5" y2="-6.5" width="0.127" layer="21"/>
 <wire x1="-6.5" y1="-6.5" x2="6.5" y2="-6.5" width="0.127" layer="21"/>
 <wire x1="6.5" y1="-6.5" x2="6.5" y2="6.5" width="0.127" layer="21"/>
 <wire x1="6.5" y1="6.5" x2="-6.5" y2="6.5" width="0.127" layer="21"/>
-<pad name="101V1" x="0" y="0" drill="0.3"/>
-<pad name="101V2" x="-0.5" y="-1" drill="0.3"/>
-<pad name="101V3" x="1" y="-0.5" drill="0.3"/>
-<pad name="101V4" x="0.5" y="1" drill="0.3"/>
-<pad name="101V5" x="-1" y="0.5" drill="0.3"/>
-<pad name="101V6" x="-1.5" y="-0.5" drill="0.3"/>
-<pad name="101V7" x="0.5" y="-1.5" drill="0.3"/>
-<pad name="101V8" x="1.5" y="0.5" drill="0.3"/>
-<pad name="101V9" x="-0.5" y="1.5" drill="0.3"/>
-<pad name="101V10" x="-1.5" y="2" drill="0.3"/>
-<pad name="101V11" x="-2" y="-1.5" drill="0.3"/>
-<pad name="101V12" x="1.5" y="-2" drill="0.3"/>
-<pad name="101V13" x="2" y="1.5" drill="0.3"/>
-<pad name="101V14" x="1" y="2" drill="0.3"/>
-<pad name="101V15" x="0" y="2.5" drill="0.3"/>
-<pad name="101V16" x="-2" y="1" drill="0.3"/>
-<pad name="101V17" x="-2.5" y="0" drill="0.3"/>
-<pad name="101V18" x="-1" y="-2" drill="0.3"/>
-<pad name="101V19" x="0" y="-2.5" drill="0.3"/>
-<pad name="101V20" x="2" y="-1" drill="0.3"/>
-<pad name="101V21" x="2.5" y="0" drill="0.3"/>
-<pad name="101V22" x="2.5" y="2.5" drill="0.3"/>
-<pad name="101V23" x="-2.5" y="2.5" drill="0.3"/>
-<pad name="101V24" x="-2.5" y="-2.5" drill="0.3"/>
-<pad name="101V25" x="2.5" y="-2.5" drill="0.3"/>
 <text x="-6.3" y="6.3" size="0.635" layer="25" font="vector" ratio="16" align="top-left">&gt;NAME</text>
 <text x="6.3" y="-6.3" size="0.635" layer="27" font="vector" ratio="16" align="bottom-right">&gt;VALUE</text>
 <circle x="-5.5" y="-5.5" radius="0.5" width="0.127" layer="27"/>
@@ -280,6 +339,64 @@
 <circle x="-2.1" y="-1.2" radius="0.1" width="0.127" layer="21"/>
 <text x="-2.7" y="0" size="0.6096" layer="25" font="vector" ratio="16" rot="R90" align="bottom-center">&gt;NAME</text>
 <text x="2.7" y="0" size="0.6096" layer="27" font="vector" ratio="16" rot="R90" align="top-center">&gt;VALUE</text>
+</package>
+<package name="J502-ND-142-0701-881/886">
+<description>&lt;b&gt;SMA 50 Ohm&lt;/b&gt; Board Thickness &lt;b&gt;0.031&lt;/b&gt; Inch, End Launch Jack Receptacle&lt;p&gt;
+Johnson Components&lt;br&gt;
+Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
+<wire x1="-1.55" y1="-4.65" x2="-1.55" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-1.55" y1="-2" x2="-3.7" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-3.7" y1="-2" x2="-4.45" y2="-2.75" width="0.2032" layer="21"/>
+<wire x1="-4.45" y1="-2.75" x2="-8.25" y2="-2.75" width="0.2032" layer="21"/>
+<wire x1="-8.25" y1="-2.75" x2="-8.25" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="-8.25" y1="-1.9" x2="-9.425" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="-9.425" y1="-1.9" x2="-9.425" y2="1.9" width="0.2032" layer="21"/>
+<wire x1="-9.425" y1="1.9" x2="-8.25" y2="1.9" width="0.2032" layer="21"/>
+<wire x1="-8.25" y1="1.9" x2="-8.25" y2="2.75" width="0.2032" layer="21"/>
+<wire x1="-8.25" y1="2.75" x2="-4.45" y2="2.75" width="0.2032" layer="21"/>
+<wire x1="-4.45" y1="2.75" x2="-3.7" y2="2" width="0.2032" layer="21"/>
+<wire x1="-3.7" y1="2" x2="-1.55" y2="2" width="0.2032" layer="21"/>
+<wire x1="-1.55" y1="2" x2="-1.55" y2="4.65" width="0.2032" layer="21"/>
+<wire x1="-0.1" y1="-3.85" x2="-0.1" y2="3.85" width="0.2032" layer="21"/>
+<wire x1="-1.55" y1="4.65" x2="-0.1" y2="4.65" width="0.2032" layer="21"/>
+<wire x1="-0.1" y1="-4.65" x2="-1.55" y2="-4.65" width="0.2032" layer="21"/>
+<wire x1="-1.55" y1="4.65" x2="4.65" y2="4.65" width="0.2032" layer="51"/>
+<wire x1="4.65" y1="-4.65" x2="-1.55" y2="-4.65" width="0.2032" layer="51"/>
+<wire x1="4.65" y1="-4.65" x2="4.65" y2="-3.85" width="0.2032" layer="51"/>
+<wire x1="4.65" y1="-3.85" x2="-0.1" y2="-3.85" width="0.2032" layer="51"/>
+<wire x1="-0.1" y1="3.85" x2="4.65" y2="3.85" width="0.2032" layer="51"/>
+<wire x1="4.65" y1="3.85" x2="4.65" y2="4.65" width="0.2032" layer="51"/>
+<smd name="1" x="2.5654" y="0" dx="5.08" dy="1.143" layer="1"/>
+<smd name="G@1" x="2.5654" y="4.4196" dx="5.08" dy="2.286" layer="1"/>
+<smd name="G@2" x="2.5654" y="-4.4196" dx="5.08" dy="2.286" layer="1"/>
+<smd name="G@4" x="2.5654" y="-4.4196" dx="5.08" dy="2.286" layer="16"/>
+<smd name="G@3" x="2.5654" y="4.4196" dx="5.08" dy="2.286" layer="16"/>
+<text x="0.635" y="6.35" size="1.778" layer="25">&gt;NAME</text>
+<text x="1.27" y="-8.89" size="1.778" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.025" y1="-0.5" x2="4.05" y2="0.5" layer="51"/>
+</package>
+<package name="SOT23-6">
+<wire x1="1.4224" y1="0.4294" x2="1.4224" y2="-0.4294" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="-0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.4294" x2="-1.4224" y2="0.4294" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="0.8" x2="1.4" y2="0.8" width="0.1524" layer="51"/>
+<wire x1="1.4" y1="0.8" x2="1.4" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="-1.4" y1="0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
+<smd name="1" x="-0.95" y="-1.3751" dx="0.55" dy="1.35" layer="1"/>
+<smd name="2" x="0" y="-1.3751" dx="0.55" dy="1.35" layer="1"/>
+<smd name="3" x="0.95" y="-1.3751" dx="0.55" dy="1.35" layer="1"/>
+<smd name="4" x="0.95" y="1.3751" dx="0.55" dy="1.35" layer="1"/>
+<smd name="5" x="0" y="1.3751" dx="0.55" dy="1.35" layer="1"/>
+<text x="-1.651" y="-0.635" size="0.6096" layer="25" font="vector" ratio="16" rot="R90">&gt;NAME</text>
+<text x="1.651" y="0" size="0.6096" layer="27" font="vector" ratio="16" rot="R90" align="top-center">&gt;VALUE</text>
+<rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.85" layer="51"/>
+<rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
+<rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
+<smd name="6" x="-0.95" y="1.3751" dx="0.55" dy="1.35" layer="1"/>
+<rectangle x1="-0.25" y1="0.85" x2="0.25" y2="1.5" layer="51"/>
+<circle x="-1.65" y="-1" radius="0.1436" width="0.2032" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -331,7 +448,6 @@ http://www.ti.com/lit/ds/symlink/ths788.pdf</description>
 <wire x1="-17.018" y1="-43.18" x2="-17.018" y2="43.18" width="0.254" layer="94"/>
 <text x="-18.034" y="43.942" size="3.81" layer="95">&gt;NAME</text>
 <text x="0" y="0" size="3.81" layer="95" rot="R90" align="center">THS788</text>
-<pin name="TPAD" x="-20.32" y="-40.64" length="middle"/>
 </symbol>
 <symbol name="SIT5021">
 <description>SiT5021 Oscillator 1-220 MHz High Performance Differential (VC) TCXO</description>
@@ -354,6 +470,37 @@ http://www.ti.com/lit/ds/symlink/ths788.pdf</description>
 <text x="-9.398" y="5.588" size="1.778" layer="95">&gt;NAME</text>
 <text x="-9.398" y="-5.588" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 </symbol>
+<symbol name="BNC-FGND">
+<wire x1="0" y1="-2.54" x2="-0.762" y2="-1.778" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0.508" x2="-0.762" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="0.508" x2="-0.508" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="0" x2="-0.762" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-0.508" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="0" y2="0.508" width="0.3048" layer="94" curve="-79.611142" cap="flat"/>
+<wire x1="-2.54" y1="-2.54" x2="0" y2="-0.508" width="0.3048" layer="94" curve="79.611142" cap="flat"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="3.302" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="GND" x="2.54" y="-2.54" visible="off" length="short" direction="pwr" rot="R180"/>
+</symbol>
+<symbol name="MCP4725">
+<description>12-Bit Digital-to-Analog Converter with EEPROM Memory in SOT-23-6
+http://ww1.microchip.com/downloads/en/DeviceDoc/22039d.pdf</description>
+<pin name="OUT" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="SDA" x="-12.7" y="0" length="middle"/>
+<pin name="A0" x="-12.7" y="5.08" length="middle"/>
+<pin name="SCL" x="-12.7" y="-5.08" length="middle"/>
+<pin name="VDD" x="12.7" y="5.08" length="middle" rot="R180"/>
+<pin name="VSS" x="12.7" y="0" length="middle" rot="R180"/>
+<text x="0" y="8.636" size="1.778" layer="94" align="top-center">MCP4725</text>
+<text x="0" y="-8.89" size="1.778" layer="94" align="bottom-center">12bit DAC</text>
+<wire x1="-8.89" y1="9.144" x2="8.89" y2="9.144" width="0.1524" layer="94"/>
+<wire x1="8.89" y1="9.144" x2="8.89" y2="-9.398" width="0.1524" layer="94"/>
+<wire x1="8.89" y1="-9.398" x2="-8.89" y2="-9.398" width="0.1524" layer="94"/>
+<wire x1="-8.89" y1="-9.398" x2="-8.89" y2="9.144" width="0.1524" layer="94"/>
+<text x="-8.89" y="9.652" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="THS788" prefix="U">
@@ -364,7 +511,7 @@ http://www.ti.com/lit/ds/symlink/ths788.pdf</description>
 <gate name="G$1" symbol="THS788" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="S-PQFP-G100">
+<device name="" package="S-QFP-G100">
 <connects>
 <connect gate="G$1" pin="!EVENT-A" pad="66"/>
 <connect gate="G$1" pin="!EVENT-B" pad="63"/>
@@ -403,7 +550,6 @@ http://www.ti.com/lit/ds/symlink/ths788.pdf</description>
 <connect gate="G$1" pin="RSTROBE-D" pad="29"/>
 <connect gate="G$1" pin="SYNC" pad="57"/>
 <connect gate="G$1" pin="TEMP" pad="52"/>
-<connect gate="G$1" pin="TPAD" pad="101 101V1 101V2 101V3 101V4 101V5 101V6 101V7 101V8 101V9 101V10 101V11 101V12 101V13 101V14 101V15 101V16 101V17 101V18 101V19 101V20 101V21 101V22 101V23 101V24 101V25"/>
 <connect gate="G$1" pin="VCC" pad="7 16 22 23 24 31 36 38 40 43 58 60 69 77 83 86 88 90 91 93 99"/>
 </connects>
 <technologies>
@@ -435,6 +581,46 @@ https://www.digikey.com/product-detail/en/sitime/SIT5021AC-2CE-33E-200.000000X/1
 </device>
 </devices>
 </deviceset>
+<deviceset name="SMA" prefix="X">
+<gates>
+<gate name="G$1" symbol="BNC-FGND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="J502-ND-142-0701-881/886">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="GND" pad="G@1 G@2 G@3 G@4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP4725" prefix="U">
+<description>12-Bit Digital-to-Analog Converter with EEPROM Memory
+ in SOT-23-6
+
+ http://ww1.microchip.com/downloads/en/DeviceDoc/22039d.pdf</description>
+<gates>
+<gate name="G$1" symbol="MCP4725" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-6">
+<connects>
+<connect gate="G$1" pin="A0" pad="6"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+<connect gate="G$1" pin="SCL" pad="5"/>
+<connect gate="G$1" pin="SDA" pad="4"/>
+<connect gate="G$1" pin="VDD" pad="3"/>
+<connect gate="G$1" pin="VSS" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -450,6 +636,15 @@ https://www.digikey.com/product-detail/en/sitime/SIT5021AC-2CE-33E-200.000000X/1
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
 <part name="U1" library="tcspc_lib" deviceset="THS788" device=""/>
 <part name="G1" library="tcspc_lib" deviceset="SIT5021" device="" value="200MHz"/>
+<part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
+<part name="X1" library="tcspc_lib" deviceset="SMA" device=""/>
+<part name="X2" library="tcspc_lib" deviceset="SMA" device=""/>
+<part name="X3" library="tcspc_lib" deviceset="SMA" device=""/>
+<part name="X4" library="tcspc_lib" deviceset="SMA" device=""/>
+<part name="U2" library="tcspc_lib" deviceset="MCP4725" device=""/>
+<part name="U3" library="tcspc_lib" deviceset="MCP4725" device=""/>
+<part name="U4" library="tcspc_lib" deviceset="MCP4725" device=""/>
+<part name="U5" library="tcspc_lib" deviceset="MCP4725" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -484,6 +679,16 @@ https://www.digikey.com/product-detail/en/sitime/SIT5021AC-2CE-33E-200.000000X/1
 <plain>
 </plain>
 <instances>
+<instance part="FRAME2" gate="G$1" x="0" y="0"/>
+<instance part="FRAME2" gate="G$2" x="172.72" y="0"/>
+<instance part="X1" gate="G$1" x="38.1" y="187.96"/>
+<instance part="X2" gate="G$1" x="38.1" y="175.26"/>
+<instance part="X3" gate="G$1" x="38.1" y="162.56"/>
+<instance part="X4" gate="G$1" x="38.1" y="149.86"/>
+<instance part="U2" gate="G$1" x="96.52" y="193.04"/>
+<instance part="U3" gate="G$1" x="96.52" y="167.64"/>
+<instance part="U4" gate="G$1" x="96.52" y="142.24"/>
+<instance part="U5" gate="G$1" x="96.52" y="116.84"/>
 </instances>
 <busses>
 </busses>
