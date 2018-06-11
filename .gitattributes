@@ -12,6 +12,15 @@
 # Denote all files that are truly binary and should not be modified.
 *.png binary
 *.jpg binary
+
+#Binary EAGLE files
 *.sch binary
 *.brd binary
 *.epf binary
+*.cam binary
+*.dru binary
+*.lbr binary
+
+#Binary CAD files
+*.stl binary
+*.step binary
