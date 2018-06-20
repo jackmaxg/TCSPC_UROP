@@ -421,19 +421,6 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <smd name="5" x="-0.95" y="1.3751" dx="0.55" dy="1.35" layer="1"/>
 <circle x="-1.65" y="-1" radius="0.1436" width="0.2032" layer="21"/>
 </package>
-<package name="DO-214AA">
-<smd name="A" x="-2.225" y="0" dx="2.16" dy="2.8" layer="1"/>
-<smd name="C" x="2.225" y="0" dx="2.16" dy="2.8" layer="1"/>
-<wire x1="-2.25" y1="1.9" x2="0.95" y2="1.9" width="0.127" layer="21"/>
-<wire x1="0.95" y1="1.9" x2="2.25" y2="1.9" width="0.127" layer="21"/>
-<wire x1="2.25" y1="1.9" x2="2.25" y2="-1.9" width="0.127" layer="21"/>
-<wire x1="2.25" y1="-1.9" x2="0.95" y2="-1.9" width="0.127" layer="21"/>
-<wire x1="0.95" y1="-1.9" x2="-2.25" y2="-1.9" width="0.127" layer="21"/>
-<wire x1="-2.25" y1="-1.9" x2="-2.25" y2="1.9" width="0.127" layer="21"/>
-<wire x1="0.95" y1="1.9" x2="0.95" y2="-1.9" width="0.127" layer="21"/>
-<text x="-2.2225" y="2.06375" size="0.6096" layer="25" font="vector" ratio="16">&gt;NAME</text>
-<text x="0" y="0" size="0.6096" layer="27" font="vector" ratio="16" rot="R90" align="center">&gt;VALUE</text>
-</package>
 <package name="0402">
 <description>simple 0402 package</description>
 <smd name="1" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
@@ -441,6 +428,8 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <rectangle x1="-0.5" y1="-0.25" x2="0.5" y2="0.25" layer="21"/>
 <text x="-0.9525" y="0" size="0.6096" layer="25" font="vector" ratio="16" align="center-right">&gt;NAME</text>
 <text x="0.9525" y="0" size="0.6096" layer="27" font="vector" ratio="16" align="center-left">&gt;VALUE</text>
+<wire x1="-0.5" y1="1.27" x2="0.5" y2="1.27" width="0.0254" layer="150"/>
+<wire x1="-0.5" y1="-1.27" x2="0.5" y2="-1.27" width="0.0254" layer="150"/>
 </package>
 </packages>
 <symbols>
@@ -686,31 +675,6 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/22039d.pdf</description>
 <wire x1="2.54" y1="7.62" x2="2.54" y2="6.35" width="0.1524" layer="94"/>
 <text x="-1.524" y="0" size="1.778" layer="95" ratio="16" align="center">&gt;NAME</text>
 <text x="5.08" y="-5.08" size="1.778" layer="95" ratio="16" align="top-left">&gt;VALUE</text>
-</symbol>
-<symbol name="TVS-BI">
-<description>Bi-directional TVS</description>
-<wire x1="1.27" y1="-3.81" x2="0" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.524" x2="-1.27" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="-1.778" y1="-2.032" x2="-1.27" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-1.524" x2="0" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-3.81" x2="0" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="0" y1="-3.81" x2="1.27" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.524" x2="0.762" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-1.016" x2="1.778" y2="-0.508" width="0.254" layer="94"/>
-<text x="2.032" y="-1.016" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.032" y="-1.524" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
-<pin name="A2" x="0" y="-5.08" visible="off" length="point" direction="pas" rot="R90"/>
-<pin name="A1" x="0" y="2.54" visible="off" length="point" direction="pas" rot="R270"/>
-<wire x1="0" y1="-5.08" x2="0" y2="-3.81" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="-1.524" x2="-0.762" y2="-1.016" width="0.254" layer="94"/>
-<wire x1="-0.762" y1="-1.016" x2="0" y2="-1.016" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.016" x2="1.27" y2="-1.016" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-1.016" x2="0.762" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="0" y1="-1.016" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="0" y2="-1.016" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -960,23 +924,6 @@ http://www.analog.com/media/en/technical-documentation/data-sheets/ADCMP580_581_
 </device>
 </devices>
 </deviceset>
-<deviceset name="TVS-BI" prefix="D" uservalue="yes">
-<description>Bi-Directional TVS Diode</description>
-<gates>
-<gate name="G$1" symbol="TVS-BI" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_DO-214AA" package="DO-214AA">
-<connects>
-<connect gate="G$1" pin="A1" pad="A"/>
-<connect gate="G$1" pin="A2" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -1024,7 +971,6 @@ http://www.analog.com/media/en/technical-documentation/data-sheets/ADCMP580_581_
 <part name="R7" library="tcspc_lib" deviceset="RES" device="_0603" value="2.2k"/>
 <part name="R8" library="tcspc_lib" deviceset="RES" device="_0603" value="2.2k"/>
 <part name="GND9" library="tcspc_lib" deviceset="GND" device=""/>
-<part name="D1" library="tcspc_lib" deviceset="TVS-BI" device="_DO-214AA" value="3.3V"/>
 <part name="GND10" library="tcspc_lib" deviceset="GND" device=""/>
 <part name="R9" library="tcspc_lib" deviceset="RES" device="_0402" value="0"/>
 <part name="R10" library="tcspc_lib" deviceset="RES" device="_0402"/>
@@ -1033,17 +979,17 @@ http://www.analog.com/media/en/technical-documentation/data-sheets/ADCMP580_581_
 <part name="R13" library="tcspc_lib" deviceset="RES" device="_0402"/>
 <part name="GND11" library="tcspc_lib" deviceset="GND" device=""/>
 <part name="GND12" library="tcspc_lib" deviceset="GND" device=""/>
-<part name="C6" library="tcspc_lib" deviceset="CAP" device="_0603" value=".1uF"/>
+<part name="C6" library="tcspc_lib" deviceset="CAP" device="_0402" value=".1uF"/>
 <part name="GND13" library="tcspc_lib" deviceset="GND" device=""/>
 <part name="GND14" library="tcspc_lib" deviceset="GND" device=""/>
-<part name="C7" library="tcspc_lib" deviceset="CAP" device="_0603" value=".1uF"/>
+<part name="C7" library="tcspc_lib" deviceset="CAP" device="_0402" value=".1uF"/>
 <part name="C8" library="tcspc_lib" deviceset="CAP" device="_0603" value=".1uF"/>
 <part name="C9" library="tcspc_lib" deviceset="CAP" device="_0603" value=".1uF"/>
 <part name="GND15" library="tcspc_lib" deviceset="GND" device=""/>
 <part name="GND16" library="tcspc_lib" deviceset="GND" device=""/>
-<part name="C10" library="tcspc_lib" deviceset="CAP" device="_0603" value=".1uF"/>
-<part name="C11" library="tcspc_lib" deviceset="CAP" device="_0603" value=".1uF"/>
-<part name="C12" library="tcspc_lib" deviceset="CAP" device="_0603" value=".1uF"/>
+<part name="C10" library="tcspc_lib" deviceset="CAP" device="_0402" value=".1uF"/>
+<part name="C11" library="tcspc_lib" deviceset="CAP" device="_0402" value=".1uF"/>
+<part name="C12" library="tcspc_lib" deviceset="CAP" device="_0402" value=".1uF"/>
 <part name="GND17" library="tcspc_lib" deviceset="GND" device=""/>
 <part name="C13" library="tcspc_lib" deviceset="CAP" device="_0402" value=".1uF"/>
 <part name="C14" library="tcspc_lib" deviceset="CAP" device="_0402" value="10nF"/>
@@ -1090,6 +1036,9 @@ http://www.analog.com/media/en/technical-documentation/data-sheets/ADCMP580_581_
 <part name="GND21" library="tcspc_lib" deviceset="GND" device=""/>
 <part name="GND22" library="tcspc_lib" deviceset="GND" device=""/>
 <part name="GND23" library="tcspc_lib" deviceset="GND" device=""/>
+<part name="C52" library="tcspc_lib" deviceset="CAP" device="_0402" value="10nF"/>
+<part name="GND24" library="tcspc_lib" deviceset="GND" device=""/>
+<part name="R14" library="tcspc_lib" deviceset="RES" device="_0402" value="0"/>
 </parts>
 <sheets>
 <sheet>
@@ -1672,28 +1621,27 @@ http://www.analog.com/media/en/technical-documentation/data-sheets/ADCMP580_581_
 <plain>
 <text x="256.54" y="91.44" size="2.54" layer="97" align="center">LVDS TMU
 INPUT</text>
-<text x="137.16" y="93.98" size="2.54" layer="97" align="center">Threshold</text>
+<text x="127" y="93.98" size="2.54" layer="97" align="center">Threshold</text>
 <text x="66.04" y="175.26" size="2.54" layer="97" align="center">Threshold 
 Control DAC</text>
 <text x="27.94" y="147.32" size="2.54" layer="97" align="center">I2C Control
 Input</text>
-<text x="71.12" y="96.52" size="2.54" layer="97" align="center">Signal Input
-And Protection</text>
+<text x="60.96" y="96.52" size="2.54" layer="97" align="center">Signal Input</text>
 <text x="210.82" y="101.6" size="2.54" layer="97" align="center">100 Ohm Differential
 Transmission Line</text>
-<text x="104.14" y="91.44" size="2.54" layer="97" align="center">50 Ohm Single Ended
+<text x="93.98" y="91.44" size="2.54" layer="97" align="center">50 Ohm Single Ended
 Transmission Line</text>
 <text x="204.47" y="94.488" size="0.635" layer="203" align="bottom-center">100_OHM_DIFF</text>
 <text x="204.47" y="89.408" size="0.635" layer="203" align="bottom-center">100_OHM_DIFF</text>
-<text x="104.14" y="86.868" size="0.635" layer="203" align="bottom-center">50_OHM_SE</text>
-<text x="137.16" y="83.82" size="2.54" layer="97" align="center">Signal</text>
+<text x="93.98" y="86.868" size="0.635" layer="203" align="bottom-center">50_OHM_SE</text>
+<text x="127" y="83.82" size="2.54" layer="97" align="center">Signal</text>
 <text x="242.57" y="94.488" size="0.635" layer="203" align="bottom-center">100_OHM_DIFF</text>
 <text x="242.57" y="89.408" size="0.635" layer="203" align="bottom-center">100_OHM_DIFF</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
 <instance part="FRAME2" gate="G$2" x="172.72" y="0"/>
-<instance part="X1" gate="G$1" x="68.58" y="86.36"/>
+<instance part="X1" gate="G$1" x="58.42" y="86.36"/>
 <instance part="U2" gate="G$1" x="66.04" y="157.48"/>
 <instance part="U3" gate="G$1" x="172.72" y="91.44"/>
 <instance part="GND1" gate="1" x="137.16" y="101.6" rot="R270"/>
@@ -1719,8 +1667,7 @@ Transmission Line</text>
 <instance part="R7" gate="G$1" x="38.1" y="162.56"/>
 <instance part="R8" gate="G$1" x="30.48" y="162.56"/>
 <instance part="GND9" gate="1" x="48.26" y="162.56" rot="R270"/>
-<instance part="D1" gate="G$1" x="76.2" y="81.28"/>
-<instance part="GND10" gate="1" x="71.12" y="71.12"/>
+<instance part="GND10" gate="1" x="63.5" y="78.74"/>
 <instance part="R9" gate="G$1" x="144.78" y="101.6" rot="R90"/>
 <instance part="R10" gate="G$1" x="228.6" y="99.06"/>
 <instance part="R11" gate="G$1" x="236.22" y="99.06"/>
@@ -1740,6 +1687,9 @@ Transmission Line</text>
 <instance part="C11" gate="G$1" x="160.02" y="129.54" rot="R270"/>
 <instance part="C12" gate="G$1" x="182.88" y="111.76" rot="R270"/>
 <instance part="GND17" gate="1" x="175.26" y="111.76" rot="R270"/>
+<instance part="C52" gate="G$1" x="144.78" y="91.44" rot="R90"/>
+<instance part="GND24" gate="1" x="137.16" y="91.44" rot="R270"/>
+<instance part="R14" gate="G$1" x="139.7" y="96.52" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -1784,11 +1734,7 @@ Transmission Line</text>
 <segment>
 <pinref part="X1" gate="G$1" pin="GND"/>
 <pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="71.12" y1="83.82" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="A2"/>
-<wire x1="71.12" y1="76.2" x2="71.12" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="76.2" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
-<junction x="71.12" y="76.2"/>
+<wire x1="60.96" y1="83.82" x2="63.5" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
@@ -1853,6 +1799,11 @@ Transmission Line</text>
 <pinref part="GND17" gate="1" pin="GND"/>
 <pinref part="C12" gate="G$1" pin="2"/>
 <wire x1="177.8" y1="111.76" x2="180.34" y2="111.76" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND24" gate="1" pin="GND"/>
+<pinref part="C52" gate="G$1" pin="1"/>
+<wire x1="139.7" y1="91.44" x2="142.24" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="2">
@@ -1941,8 +1892,8 @@ Transmission Line</text>
 <wire x1="127" y1="152.4" x2="104.14" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="127" y1="127" x2="127" y2="96.52" width="0.1524" layer="91"/>
 <junction x="127" y="127"/>
-<pinref part="U3" gate="G$1" pin="VP"/>
-<wire x1="127" y1="96.52" x2="149.86" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="R14" gate="G$1" pin="1"/>
+<wire x1="127" y1="96.52" x2="137.16" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -1976,11 +1927,7 @@ Transmission Line</text>
 <net name="N$18" class="1">
 <segment>
 <pinref part="X1" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="86.36" x2="76.2" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="A1"/>
-<wire x1="76.2" y1="86.36" x2="76.2" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="86.36" x2="149.86" y2="86.36" width="0.1524" layer="91"/>
-<junction x="76.2" y="86.36"/>
+<wire x1="60.96" y1="86.36" x2="149.86" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="VN"/>
 </segment>
 </net>
@@ -2083,6 +2030,17 @@ Transmission Line</text>
 <wire x1="165.1" y1="66.04" x2="165.1" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="66.04" x2="165.1" y2="66.04" width="0.1524" layer="91"/>
 <junction x="165.1" y="66.04"/>
+</segment>
+</net>
+<net name="N$37" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="VP"/>
+<wire x1="147.32" y1="96.52" x2="149.86" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="C52" gate="G$1" pin="2"/>
+<wire x1="147.32" y1="91.44" x2="147.32" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="142.24" y1="96.52" x2="147.32" y2="96.52" width="0.1524" layer="91"/>
+<junction x="147.32" y="96.52"/>
 </segment>
 </net>
 </nets>
