@@ -827,6 +827,31 @@ grid 2.54 mm</description>
 <wire x1="-0.80875" y1="1.3" x2="-0.65" y2="1.5" width="0.127" layer="21"/>
 <text x="0" y="1.905" size="0.6096" layer="25" font="vector" ratio="16" align="bottom-center">&gt;NAME</text>
 </package>
+<package name="TSSOP-16">
+<wire x1="-2.2" y1="2.5" x2="-2.2" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="-2.5" x2="2.2" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="2.2" y1="-2.5" x2="2.2" y2="2.5" width="0.127" layer="21"/>
+<wire x1="2.2" y1="2.5" x2="-2.2" y2="2.5" width="0.127" layer="21"/>
+<smd name="1" x="-2.9" y="2.275" dx="1.2" dy="0.35" layer="1"/>
+<text x="0" y="2.69875" size="0.6096" layer="25" font="vector" ratio="16" align="bottom-center">&gt;NAME</text>
+<text x="0" y="0" size="0.6096" layer="27" font="vector" ratio="16" rot="R90" align="center">&gt;VALUE</text>
+<circle x="-1.5875" y="1.905" radius="0.2" width="0.127" layer="21"/>
+<smd name="2" x="-2.9" y="1.625" dx="1.2" dy="0.35" layer="1"/>
+<smd name="3" x="-2.9" y="0.975" dx="1.2" dy="0.35" layer="1"/>
+<smd name="4" x="-2.9" y="0.325" dx="1.2" dy="0.35" layer="1"/>
+<smd name="5" x="-2.9" y="-0.325" dx="1.2" dy="0.35" layer="1"/>
+<smd name="6" x="-2.9" y="-0.975" dx="1.2" dy="0.35" layer="1"/>
+<smd name="7" x="-2.9" y="-1.625" dx="1.2" dy="0.35" layer="1"/>
+<smd name="8" x="-2.9" y="-2.275" dx="1.2" dy="0.35" layer="1"/>
+<smd name="9" x="2.9" y="-2.275" dx="1.2" dy="0.35" layer="1"/>
+<smd name="10" x="2.9" y="-1.625" dx="1.2" dy="0.35" layer="1"/>
+<smd name="11" x="2.9" y="-0.975" dx="1.2" dy="0.35" layer="1"/>
+<smd name="12" x="2.9" y="-0.325" dx="1.2" dy="0.35" layer="1"/>
+<smd name="13" x="2.9" y="0.325" dx="1.2" dy="0.35" layer="1"/>
+<smd name="14" x="2.9" y="0.975" dx="1.2" dy="0.35" layer="1"/>
+<smd name="15" x="2.9" y="1.625" dx="1.2" dy="0.35" layer="1"/>
+<smd name="16" x="2.9" y="2.275" dx="1.2" dy="0.35" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="THS788">
@@ -1305,6 +1330,30 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/22039d.pdf</description>
 <text x="8.89" y="8.128" size="1.778" layer="96" ratio="16" align="bottom-right">&gt;VALUE</text>
 <text x="0" y="-8.128" size="1.778" layer="96" ratio="16" align="top-center">TPS7A30</text>
 </symbol>
+<symbol name="AD53X8">
+<pin name="VOUT_A" x="20.32" y="17.78" length="middle" rot="R180"/>
+<pin name="VOUT_B" x="20.32" y="12.7" length="middle" rot="R180"/>
+<pin name="VOUT_C" x="20.32" y="7.62" length="middle" rot="R180"/>
+<pin name="VOUT_D" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="VOUT_E" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="VOUT_F" x="20.32" y="-7.62" length="middle" rot="R180"/>
+<pin name="VOUT_G" x="20.32" y="-12.7" length="middle" rot="R180"/>
+<pin name="VOUT_H" x="20.32" y="-17.78" length="middle" rot="R180"/>
+<pin name="VREF_ABCD" x="-20.32" y="17.78" length="middle"/>
+<pin name="VREF_EFGH" x="-20.32" y="12.7" length="middle"/>
+<pin name="SCLK" x="-20.32" y="7.62" length="middle"/>
+<pin name="!SYNC" x="-20.32" y="2.54" length="middle"/>
+<pin name="DIN" x="-20.32" y="-2.54" length="middle"/>
+<pin name="!LDAC" x="-20.32" y="-7.62" length="middle"/>
+<pin name="V_DD" x="-20.32" y="-12.7" length="middle"/>
+<pin name="GND" x="-20.32" y="-17.78" length="middle"/>
+<text x="0" y="-20.828" size="1.778" layer="97" align="top-center">AD53X8</text>
+<text x="0" y="20.828" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<wire x1="-16.764" y1="20.32" x2="16.764" y2="20.32" width="0.254" layer="94"/>
+<wire x1="16.764" y1="20.32" x2="16.764" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="16.764" y1="-20.32" x2="-16.764" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-16.764" y1="-20.32" x2="-16.764" y2="20.32" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="THS788" prefix="U">
@@ -1766,6 +1815,37 @@ http://www.ti.com/lit/ds/symlink/tps7a49.pdf</description>
 <connect gate="G$1" pin="IN" pad="8"/>
 <connect gate="G$1" pin="NR" pad="6"/>
 <connect gate="G$1" pin="OUT" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AD53X8" prefix="U">
+<description>8/10/12 bit, 2.5v to 5.5v, 8 channel DAC</description>
+<gates>
+<gate name="G$1" symbol="AD53X8" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TSSOP-16">
+<connects>
+<connect gate="G$1" pin="!LDAC" pad="1"/>
+<connect gate="G$1" pin="!SYNC" pad="2"/>
+<connect gate="G$1" pin="DIN" pad="15"/>
+<connect gate="G$1" pin="GND" pad="14"/>
+<connect gate="G$1" pin="SCLK" pad="16"/>
+<connect gate="G$1" pin="VOUT_A" pad="4"/>
+<connect gate="G$1" pin="VOUT_B" pad="5"/>
+<connect gate="G$1" pin="VOUT_C" pad="6"/>
+<connect gate="G$1" pin="VOUT_D" pad="7"/>
+<connect gate="G$1" pin="VOUT_E" pad="10"/>
+<connect gate="G$1" pin="VOUT_F" pad="11"/>
+<connect gate="G$1" pin="VOUT_G" pad="12"/>
+<connect gate="G$1" pin="VOUT_H" pad="13"/>
+<connect gate="G$1" pin="VREF_ABCD" pad="8"/>
+<connect gate="G$1" pin="VREF_EFGH" pad="9"/>
+<connect gate="G$1" pin="V_DD" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
