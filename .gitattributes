@@ -6,6 +6,11 @@
 *.c text
 *.h text
 
+#Vivado Text files
+*.v
+*.vhdl
+*.xdc
+
 # Declare files that will always have CRLF line endings on checkout.
 *.sln text eol=crlf
 
@@ -25,5 +30,9 @@
 *.stl binary
 *.step binary
 
+#Binary Vivado files
+*.wcfg binary
+
 #Not quite binary but I don't want it messed with 
 *.csv binary
+*.xml binary
