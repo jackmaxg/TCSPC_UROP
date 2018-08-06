@@ -24,3 +24,6 @@
 #Binary CAD files
 *.stl binary
 *.step binary
+
+#Not quite binary but I don't want it messed with 
+*.csv binary
