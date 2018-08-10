@@ -604,7 +604,7 @@ Transmission Line</text>
 <label x="172.72" y="109.22" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SIG_IN" class="0">
+<net name="CHA_SIG_IN" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="VN"/>
 <wire x1="106.68" y1="106.68" x2="104.14" y2="106.68" width="0.1524" layer="91"/>
@@ -616,11 +616,11 @@ Transmission Line</text>
 <junction x="104.14" y="106.68"/>
 </segment>
 </net>
-<net name="THRESH" class="0">
+<net name="CHA_THRESH" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="VP"/>
 <wire x1="106.68" y1="116.84" x2="99.06" y2="116.84" width="0.1524" layer="91"/>
-<label x="99.06" y="127" size="1.27" layer="95" xref="yes"/>
+<label x="99.06" y="127" size="1.27" layer="95" rot="R90" xref="yes"/>
 <wire x1="99.06" y1="116.84" x2="99.06" y2="127" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 <pinref part="R2" gate="G$1" pin="2"/>
@@ -637,7 +637,7 @@ Transmission Line</text>
 <label x="91.44" y="137.16" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="LE/HYS" class="0">
+<net name="CHA_LE/HYS" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="R4" gate="G$1" pin="1"/>

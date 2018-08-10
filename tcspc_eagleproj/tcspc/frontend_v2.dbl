@@ -612,7 +612,7 @@ Transmission Line</text>
 <label x="172.72" y="109.22" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SIG_IN" class="0">
+<net name="CHA_SIG_IN" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="VN"/>
 <wire x1="106.68" y1="106.68" x2="104.14" y2="106.68" width="0.1524" layer="91"/>
@@ -624,11 +624,11 @@ Transmission Line</text>
 <junction x="104.14" y="106.68"/>
 </segment>
 </net>
-<net name="THRESH" class="0">
+<net name="CHA_THRESH" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="VP"/>
 <wire x1="106.68" y1="116.84" x2="99.06" y2="116.84" width="0.1524" layer="91"/>
-<label x="99.06" y="127" size="1.27" layer="95" xref="yes"/>
+<label x="99.06" y="127" size="1.27" layer="95" rot="R90" xref="yes"/>
 <wire x1="99.06" y1="116.84" x2="99.06" y2="127" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 <pinref part="R2" gate="G$1" pin="2"/>
@@ -645,7 +645,7 @@ Transmission Line</text>
 <label x="91.44" y="137.16" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="LE/HYS" class="0">
+<net name="CHA_LE/HYS" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="R4" gate="G$1" pin="1"/>
@@ -1317,7 +1317,7 @@ Unknown parameters left as the Eagle Defaults</description>
 <wire x1="15.08125" y1="-0.22098125" x2="14.80223125" y2="-0.5" width="0.1524" layer="1"/>
 <wire x1="14.80223125" y1="-0.5" x2="14.2" y2="-0.5" width="0.1524" layer="1"/>
 </signal>
-<signal name="SIG_IN">
+<signal name="CHA_SIG_IN">
 <contactref element="U1" pad="6"/>
 <contactref element="X1" pad="1"/>
 <contactref element="R1" pad="1"/>
@@ -1328,7 +1328,7 @@ Unknown parameters left as the Eagle Defaults</description>
 <wire x1="11.2" y1="-0.5" x2="4.7164" y2="-0.5" width="0.1524" layer="1"/>
 <wire x1="4.7164" y1="-0.5" x2="4.2164" y2="0" width="0.1524" layer="1"/>
 </signal>
-<signal name="THRESH">
+<signal name="CHA_THRESH">
 <contactref element="U1" pad="4"/>
 <contactref element="C5" pad="1"/>
 <contactref element="R2" pad="2"/>
@@ -1342,7 +1342,7 @@ Unknown parameters left as the Eagle Defaults</description>
 <wire x1="8.27875" y1="1.92875" x2="8.89" y2="2.54" width="0.2032" layer="1"/>
 <via x="8.89" y="2.54" extent="1-16" drill="0.3"/>
 </signal>
-<signal name="LE/HYS">
+<signal name="CHA_LE/HYS">
 <contactref element="R3" pad="2"/>
 <contactref element="R4" pad="1"/>
 <contactref element="U1" pad="8"/>
