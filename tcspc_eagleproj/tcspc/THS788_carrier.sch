@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.1">
+<eagle version="9.1.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1732,6 +1732,106 @@ https://www.digikey.com/product-detail/en/sitime/SIT5021AC-2CE-33E-200.000000X/1
 <label x="35.56" y="88.9" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="_R2" pin="P22"/>
 </segment>
+<segment>
+<wire x1="33.02" y1="129.54" x2="35.56" y2="129.54" width="0.1524" layer="91"/>
+<label x="35.56" y="129.54" size="1.27" layer="95" xref="yes"/>
+<pinref part="J1" gate="_R2" pin="P6"/>
+</segment>
+<segment>
+<wire x1="33.02" y1="114.3" x2="35.56" y2="114.3" width="0.1524" layer="91"/>
+<label x="35.56" y="114.3" size="1.27" layer="95" xref="yes"/>
+<pinref part="J1" gate="_R2" pin="P12"/>
+</segment>
+<segment>
+<wire x1="33.02" y1="106.68" x2="35.56" y2="106.68" width="0.1524" layer="91"/>
+<label x="35.56" y="106.68" size="1.27" layer="95" xref="yes"/>
+<pinref part="J1" gate="_R2" pin="P15"/>
+</segment>
+<segment>
+<wire x1="33.02" y1="78.74" x2="35.56" y2="78.74" width="0.1524" layer="91"/>
+<label x="35.56" y="78.74" size="1.27" layer="95" xref="yes"/>
+<pinref part="J1" gate="_R2" pin="P26"/>
+</segment>
+<segment>
+<wire x1="33.02" y1="71.12" x2="35.56" y2="71.12" width="0.1524" layer="91"/>
+<label x="35.56" y="71.12" size="1.27" layer="95" xref="yes"/>
+<pinref part="J1" gate="_R2" pin="P29"/>
+</segment>
+<segment>
+<wire x1="33.02" y1="63.5" x2="35.56" y2="63.5" width="0.1524" layer="91"/>
+<label x="35.56" y="63.5" size="1.27" layer="95" xref="yes"/>
+<pinref part="J1" gate="_R2" pin="P32"/>
+</segment>
+<segment>
+<wire x1="33.02" y1="55.88" x2="35.56" y2="55.88" width="0.1524" layer="91"/>
+<label x="35.56" y="55.88" size="1.27" layer="95" xref="yes"/>
+<pinref part="J1" gate="_R2" pin="P35"/>
+</segment>
+<segment>
+<wire x1="33.02" y1="121.92" x2="35.56" y2="121.92" width="0.1524" layer="91"/>
+<label x="35.56" y="121.92" size="1.27" layer="95" xref="yes"/>
+<pinref part="J1" gate="_R2" pin="P9"/>
+</segment>
+<segment>
+<wire x1="220.98" y1="121.92" x2="218.44" y2="121.92" width="0.1524" layer="91"/>
+<label x="218.44" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P9"/>
+</segment>
+<segment>
+<wire x1="220.98" y1="114.3" x2="218.44" y2="114.3" width="0.1524" layer="91"/>
+<label x="218.44" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P12"/>
+</segment>
+<segment>
+<wire x1="220.98" y1="106.68" x2="218.44" y2="106.68" width="0.1524" layer="91"/>
+<label x="218.44" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P15"/>
+</segment>
+<segment>
+<wire x1="220.98" y1="99.06" x2="218.44" y2="99.06" width="0.1524" layer="91"/>
+<label x="218.44" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P18"/>
+</segment>
+<segment>
+<wire x1="220.98" y1="91.44" x2="218.44" y2="91.44" width="0.1524" layer="91"/>
+<label x="218.44" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P21"/>
+</segment>
+<segment>
+<wire x1="220.98" y1="83.82" x2="218.44" y2="83.82" width="0.1524" layer="91"/>
+<label x="218.44" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P24"/>
+</segment>
+<segment>
+<wire x1="220.98" y1="76.2" x2="218.44" y2="76.2" width="0.1524" layer="91"/>
+<label x="218.44" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P27"/>
+</segment>
+<segment>
+<wire x1="220.98" y1="68.58" x2="218.44" y2="68.58" width="0.1524" layer="91"/>
+<label x="218.44" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P30"/>
+</segment>
+<segment>
+<wire x1="220.98" y1="60.96" x2="218.44" y2="60.96" width="0.1524" layer="91"/>
+<label x="218.44" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P33"/>
+</segment>
+<segment>
+<wire x1="220.98" y1="53.34" x2="218.44" y2="53.34" width="0.1524" layer="91"/>
+<label x="218.44" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P36"/>
+</segment>
+<segment>
+<wire x1="220.98" y1="45.72" x2="218.44" y2="45.72" width="0.1524" layer="91"/>
+<label x="218.44" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P39"/>
+</segment>
+<segment>
+<wire x1="220.98" y1="139.7" x2="218.44" y2="139.7" width="0.1524" layer="91"/>
+<label x="218.44" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P2"/>
+</segment>
 </net>
 <net name="CLK" class="0">
 <segment>
@@ -1763,7 +1863,7 @@ https://www.digikey.com/product-detail/en/sitime/SIT5021AC-2CE-33E-200.000000X/1
 <wire x1="104.14" y1="160.02" x2="109.22" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="!SYNC_IN" class="2">
+<net name="SYNC_IN_N" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="!SYNC"/>
 <pinref part="R2" gate="G$1" pin="1"/>
@@ -1773,11 +1873,12 @@ https://www.digikey.com/product-detail/en/sitime/SIT5021AC-2CE-33E-200.000000X/1
 <label x="99.06" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="210.82" y1="124.46" x2="208.28" y2="124.46" width="0.1524" layer="91"/>
-<label x="208.28" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="220.98" y1="96.52" x2="218.44" y2="96.52" width="0.1524" layer="91"/>
+<label x="218.44" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P19"/>
 </segment>
 </net>
-<net name="SYNC_IN" class="2">
+<net name="SYNC_IN_P" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="SYNC"/>
 <wire x1="116.84" y1="137.16" x2="114.3" y2="137.16" width="0.1524" layer="91"/>
@@ -1789,8 +1890,9 @@ https://www.digikey.com/product-detail/en/sitime/SIT5021AC-2CE-33E-200.000000X/1
 <label x="99.06" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="210.82" y1="127" x2="208.28" y2="127" width="0.1524" layer="91"/>
-<label x="208.28" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="220.98" y1="93.98" x2="218.44" y2="93.98" width="0.1524" layer="91"/>
+<label x="218.44" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P20"/>
 </segment>
 </net>
 <net name="EVT_A_IN_P" class="2">
@@ -1895,6 +1997,11 @@ https://www.digikey.com/product-detail/en/sitime/SIT5021AC-2CE-33E-200.000000X/1
 <wire x1="157.48" y1="137.16" x2="160.02" y2="137.16" width="0.1524" layer="91"/>
 <label x="160.02" y="137.16" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="218.44" y1="127" x2="220.98" y2="127" width="0.1524" layer="91"/>
+<label x="218.44" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P7"/>
+</segment>
 </net>
 <net name="OT_ALRM_OUT" class="0">
 <segment>
@@ -1902,131 +2009,214 @@ https://www.digikey.com/product-detail/en/sitime/SIT5021AC-2CE-33E-200.000000X/1
 <wire x1="157.48" y1="134.62" x2="160.02" y2="134.62" width="0.1524" layer="91"/>
 <label x="160.02" y="134.62" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="218.44" y1="124.46" x2="220.98" y2="124.46" width="0.1524" layer="91"/>
+<label x="218.44" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P8"/>
+</segment>
 </net>
-<net name="RDATA-A_OUT" class="2">
+<net name="RDATA-A_OUT_P" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="RDATA-A"/>
 <wire x1="157.48" y1="127" x2="165.1" y2="127" width="0.1524" layer="91"/>
 <label x="165.1" y="127" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="218.44" y1="88.9" x2="220.98" y2="88.9" width="0.1524" layer="91"/>
+<label x="218.44" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P22"/>
+</segment>
 </net>
-<net name="!RDATA-A_OUT" class="2">
+<net name="RDATA-A_OUT_N" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="!RDATA-A"/>
 <wire x1="157.48" y1="124.46" x2="165.1" y2="124.46" width="0.1524" layer="91"/>
 <label x="165.1" y="124.46" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="218.44" y1="86.36" x2="220.98" y2="86.36" width="0.1524" layer="91"/>
+<label x="218.44" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P23"/>
+</segment>
 </net>
-<net name="RDATA-B_OUT" class="2">
+<net name="RDATA-B_OUT_P" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="RDATA-B"/>
 <wire x1="157.48" y1="119.38" x2="165.1" y2="119.38" width="0.1524" layer="91"/>
 <label x="165.1" y="119.38" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="218.44" y1="101.6" x2="220.98" y2="101.6" width="0.1524" layer="91"/>
+<label x="218.44" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P17"/>
+</segment>
 </net>
-<net name="!RDATA-B_OUT" class="2">
+<net name="RDATA-B_OUT_N" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="!RDATA-B"/>
 <wire x1="157.48" y1="116.84" x2="165.1" y2="116.84" width="0.1524" layer="91"/>
 <label x="165.1" y="116.84" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="218.44" y1="104.14" x2="220.98" y2="104.14" width="0.1524" layer="91"/>
+<label x="218.44" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P16"/>
+</segment>
 </net>
-<net name="RDATA-C_OUT" class="2">
+<net name="RDATA-C_OUT_P" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="RDATA-C"/>
 <wire x1="157.48" y1="111.76" x2="165.1" y2="111.76" width="0.1524" layer="91"/>
 <label x="165.1" y="111.76" size="1.27" layer="95" xref="yes"/>
 </segment>
-</net>
-<net name="!RDATA-C_OUT" class="2">
 <segment>
-<pinref part="U1" gate="G$1" pin="!RDATA-C"/>
-<wire x1="157.48" y1="109.22" x2="165.1" y2="109.22" width="0.1524" layer="91"/>
-<label x="165.1" y="109.22" size="1.27" layer="95" xref="yes"/>
+<wire x1="218.44" y1="63.5" x2="220.98" y2="63.5" width="0.1524" layer="91"/>
+<label x="218.44" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P32"/>
 </segment>
 </net>
-<net name="RDATA-D_OUT" class="2">
+<net name="RDATA-D_OUT_P" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="RDATA-D"/>
 <wire x1="157.48" y1="104.14" x2="165.1" y2="104.14" width="0.1524" layer="91"/>
 <label x="165.1" y="104.14" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="220.98" y1="58.42" x2="218.44" y2="58.42" width="0.1524" layer="91"/>
+<label x="218.44" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P34"/>
+</segment>
 </net>
-<net name="!RDATA-D_OUT" class="2">
+<net name="RDATA-D_OUT_N" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="!RDATA-D"/>
 <wire x1="157.48" y1="101.6" x2="165.1" y2="101.6" width="0.1524" layer="91"/>
 <label x="165.1" y="101.6" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="218.44" y1="55.88" x2="220.98" y2="55.88" width="0.1524" layer="91"/>
+<label x="218.44" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P35"/>
+</segment>
 </net>
-<net name="RCLK_OUT" class="2">
+<net name="RCLK_OUT_P" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="RCLK"/>
 <wire x1="157.48" y1="96.52" x2="165.1" y2="96.52" width="0.1524" layer="91"/>
 <label x="165.1" y="96.52" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="218.44" y1="116.84" x2="220.98" y2="116.84" width="0.1524" layer="91"/>
+<label x="218.44" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P11"/>
+</segment>
 </net>
-<net name="!RCLK_OUT" class="2">
+<net name="RCLK_OUT_N" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="!RCLK"/>
 <wire x1="157.48" y1="93.98" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
 <label x="165.1" y="93.98" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="218.44" y1="119.38" x2="220.98" y2="119.38" width="0.1524" layer="91"/>
+<label x="218.44" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P10"/>
+</segment>
 </net>
-<net name="RSTROBE-A_OUT" class="2">
+<net name="RSTROBE-A_OUT_P" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="RSTROBE-A"/>
 <wire x1="157.48" y1="88.9" x2="165.1" y2="88.9" width="0.1524" layer="91"/>
 <label x="165.1" y="88.9" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="218.44" y1="81.28" x2="220.98" y2="81.28" width="0.1524" layer="91"/>
+<label x="218.44" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P25"/>
+</segment>
 </net>
-<net name="!RSTROBE-A_OUT" class="2">
+<net name="RSTROBE-A_OUT_N" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="!RSTROBE-A"/>
 <wire x1="157.48" y1="86.36" x2="165.1" y2="86.36" width="0.1524" layer="91"/>
 <label x="165.1" y="86.36" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="218.44" y1="78.74" x2="220.98" y2="78.74" width="0.1524" layer="91"/>
+<label x="218.44" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P26"/>
+</segment>
 </net>
-<net name="RSTROBE-B_OUT" class="2">
+<net name="RSTROBE-B_OUT_P" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="RSTROBE-B"/>
 <wire x1="157.48" y1="81.28" x2="165.1" y2="81.28" width="0.1524" layer="91"/>
 <label x="165.1" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="218.44" y1="109.22" x2="220.98" y2="109.22" width="0.1524" layer="91"/>
+<label x="218.44" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P14"/>
+</segment>
 </net>
-<net name="!RSTROBE-B_OUT" class="2">
+<net name="RSTROBE-B_OUT_N" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="!RSTROBE-B"/>
 <wire x1="157.48" y1="78.74" x2="165.1" y2="78.74" width="0.1524" layer="91"/>
 <label x="165.1" y="78.74" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="218.44" y1="111.76" x2="220.98" y2="111.76" width="0.1524" layer="91"/>
+<label x="218.44" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P13"/>
+</segment>
 </net>
-<net name="RSTROBE-C_OUT" class="2">
+<net name="RSTROBE-C_OUT_P" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="RSTROBE-C"/>
 <wire x1="157.48" y1="73.66" x2="165.1" y2="73.66" width="0.1524" layer="91"/>
 <label x="165.1" y="73.66" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="218.44" y1="71.12" x2="220.98" y2="71.12" width="0.1524" layer="91"/>
+<label x="218.44" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P29"/>
+</segment>
 </net>
-<net name="!RSTROBE-C_OUT" class="2">
+<net name="RSTROBE-C_OUT_N" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="!RSTROBE-C"/>
 <wire x1="157.48" y1="71.12" x2="165.1" y2="71.12" width="0.1524" layer="91"/>
 <label x="165.1" y="71.12" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="218.44" y1="73.66" x2="220.98" y2="73.66" width="0.1524" layer="91"/>
+<label x="218.44" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P28"/>
+</segment>
 </net>
-<net name="RSTROBE-D_OUT" class="2">
+<net name="RSTROBE-D_OUT_P" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="RSTROBE-D"/>
 <wire x1="157.48" y1="66.04" x2="165.1" y2="66.04" width="0.1524" layer="91"/>
 <label x="165.1" y="66.04" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="220.98" y1="50.8" x2="218.44" y2="50.8" width="0.1524" layer="91"/>
+<label x="218.44" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P37"/>
+</segment>
 </net>
-<net name="!RSTROBE-D_OUT" class="2">
+<net name="RSTROBE-D_OUT_N" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="!RSTROBE-D"/>
 <wire x1="157.48" y1="63.5" x2="165.1" y2="63.5" width="0.1524" layer="91"/>
 <label x="165.1" y="63.5" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="220.98" y1="48.26" x2="218.44" y2="48.26" width="0.1524" layer="91"/>
+<label x="218.44" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P38"/>
 </segment>
 </net>
 <net name="!RESET_IN" class="0">
@@ -2035,12 +2225,22 @@ https://www.digikey.com/product-detail/en/sitime/SIT5021AC-2CE-33E-200.000000X/1
 <wire x1="116.84" y1="88.9" x2="109.22" y2="88.9" width="0.1524" layer="91"/>
 <label x="109.22" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<wire x1="220.98" y1="129.54" x2="218.44" y2="129.54" width="0.1524" layer="91"/>
+<label x="218.44" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P6"/>
+</segment>
 </net>
 <net name="HDATA_IN" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="HDATA"/>
 <wire x1="116.84" y1="83.82" x2="109.22" y2="83.82" width="0.1524" layer="91"/>
 <label x="109.22" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="220.98" y1="137.16" x2="218.44" y2="137.16" width="0.1524" layer="91"/>
+<label x="218.44" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P3"/>
 </segment>
 </net>
 <net name="HCLK_IN" class="0">
@@ -2049,12 +2249,22 @@ https://www.digikey.com/product-detail/en/sitime/SIT5021AC-2CE-33E-200.000000X/1
 <wire x1="116.84" y1="78.74" x2="109.22" y2="78.74" width="0.1524" layer="91"/>
 <label x="109.22" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<wire x1="220.98" y1="134.62" x2="218.44" y2="134.62" width="0.1524" layer="91"/>
+<label x="218.44" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P4"/>
+</segment>
 </net>
 <net name="!HSTROBE_IN" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="!HSTROBE"/>
 <wire x1="116.84" y1="73.66" x2="109.22" y2="73.66" width="0.1524" layer="91"/>
 <label x="109.22" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="220.98" y1="132.08" x2="218.44" y2="132.08" width="0.1524" layer="91"/>
+<label x="218.44" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P5"/>
 </segment>
 </net>
 <net name="EVT_B_IN_N" class="2">
@@ -2087,6 +2297,18 @@ https://www.digikey.com/product-detail/en/sitime/SIT5021AC-2CE-33E-200.000000X/1
 <wire x1="33.02" y1="127" x2="35.56" y2="127" width="0.1524" layer="91"/>
 <label x="35.56" y="127" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="_R2" pin="P7"/>
+</segment>
+</net>
+<net name="RDATA-C_OUT_N" class="2">
+<segment>
+<pinref part="U1" gate="G$1" pin="!RDATA-C"/>
+<wire x1="157.48" y1="109.22" x2="165.1" y2="109.22" width="0.1524" layer="91"/>
+<label x="165.1" y="109.22" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="218.44" y1="66.04" x2="220.98" y2="66.04" width="0.1524" layer="91"/>
+<label x="218.44" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="_R1" pin="P31"/>
 </segment>
 </net>
 </nets>
