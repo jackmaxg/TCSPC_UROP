@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.1">
+<eagle version="9.1.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1019,6 +1019,209 @@ grid 2.54 mm</description>
 <circle x="-1.27" y="1.27" radius="0.15875" width="0.127" layer="21"/>
 <text x="-0.79375" y="1.666875" size="0.6096" layer="21" font="vector" ratio="16" align="bottom-right">&gt;NAME</text>
 </package>
+<package name="XEM7310">
+<wire x1="31.49775" y1="47.9845" x2="67.50225" y2="47.9845" width="0.127" layer="21"/>
+<wire x1="67.50225" y1="47.9845" x2="67.50225" y2="43.73" width="0.127" layer="21"/>
+<wire x1="31.49775" y1="47.9845" x2="31.49775" y2="43.73" width="0.127" layer="21"/>
+<wire x1="31.49775" y1="43.73" x2="32.99" y2="42.0155" width="0.127" layer="21"/>
+<wire x1="32.99" y1="42.0155" x2="66.01" y2="42.0155" width="0.127" layer="21"/>
+<wire x1="66.01" y1="42.0155" x2="67.50225" y2="43.73" width="0.127" layer="21"/>
+<wire x1="32.99" y1="46.9685" x2="66.01" y2="46.9685" width="0.127" layer="21"/>
+<wire x1="66.01" y1="46.9685" x2="66.01" y2="43.0315" width="0.127" layer="21"/>
+<wire x1="66.01" y1="43.0315" x2="32.99" y2="43.0315" width="0.127" layer="21"/>
+<wire x1="32.99" y1="43.0315" x2="32.99" y2="46.9685" width="0.127" layer="21"/>
+<smd name="MC1.1" x="33.89805" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<hole x="32.25975" y="47.032" drill="0.889"/>
+<smd name="MC1.2" x="33.89805" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.3" x="34.69815" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.4" x="34.69815" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.5" x="35.49825" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.6" x="35.49825" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.7" x="36.29835" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.8" x="36.29835" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.9" x="37.09845" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.10" x="37.09845" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.11" x="37.89855" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.12" x="37.89855" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.13" x="38.69865" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.14" x="38.69865" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.15" x="39.49875" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.16" x="39.49875" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.17" x="40.29885" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.18" x="40.29885" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.19" x="41.09895" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.20" x="41.09895" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.21" x="41.89905" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.22" x="41.89905" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.23" x="42.69915" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.24" x="42.69915" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.25" x="43.49925" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.26" x="43.49925" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.27" x="44.29935" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.28" x="44.29935" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.29" x="45.09945" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.30" x="45.09945" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.31" x="45.89955" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.32" x="45.89955" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.33" x="46.69965" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.34" x="46.69965" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.35" x="47.49975" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.36" x="47.49975" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.37" x="48.29985" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.38" x="48.29985" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.39" x="49.09995" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.40" x="49.09995" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.41" x="49.90005" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.42" x="49.90005" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.43" x="50.70015" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.44" x="50.70015" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.45" x="51.50025" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.46" x="51.50025" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.47" x="52.30035" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.48" x="52.30035" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.49" x="53.10045" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.50" x="53.10045" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.51" x="53.90055" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.52" x="53.90055" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.53" x="54.70065" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.54" x="54.70065" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.55" x="55.50075" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.56" x="55.50075" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.57" x="56.30085" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.58" x="56.30085" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.59" x="57.10095" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.60" x="57.10095" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.61" x="57.90105" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.62" x="57.90105" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.63" x="58.70115" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.64" x="58.70115" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.65" x="59.50125" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.66" x="59.50125" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.67" x="60.30135" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.68" x="60.30135" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.69" x="61.10145" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.70" x="61.10145" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.71" x="61.90155" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.72" x="61.90155" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.73" x="62.70165" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.74" x="62.70165" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.75" x="63.50175" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.76" x="63.50175" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.77" x="64.30185" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.78" x="64.30185" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.79" x="65.10195" y="48.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC1.80" x="65.10195" y="41.825" dx="0.3048" dy="1.27" layer="1"/>
+<hole x="66.74025" y="47.032" drill="0.889"/>
+<wire x1="0" y1="0" x2="0" y2="50" width="0.127" layer="21"/>
+<wire x1="0" y1="50" x2="75" y2="50" width="0.127" layer="21"/>
+<wire x1="75" y1="50" x2="75" y2="0" width="0.127" layer="21"/>
+<wire x1="75" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<pad name="BH1" x="3" y="3" drill="2.7" diameter="5.5" thermals="no"/>
+<pad name="BH2" x="3" y="47" drill="2.7" diameter="5.5" thermals="no"/>
+<pad name="BH3" x="72" y="47" drill="2.7" diameter="5.5" thermals="no"/>
+<pad name="BH4" x="72" y="3" drill="2.7" diameter="5.5" thermals="no"/>
+<wire x1="-3.5" y1="8.5" x2="10.85" y2="8.5" width="0.127" layer="51"/>
+<wire x1="10.85" y1="8.5" x2="10.85" y2="17.5" width="0.127" layer="51"/>
+<wire x1="10.85" y1="17.5" x2="-3.5" y2="17.5" width="0.127" layer="51"/>
+<wire x1="-3.5" y1="17.5" x2="-3.5" y2="8.5" width="0.127" layer="51"/>
+<wire x1="-1.17" y1="41.45" x2="-1.17" y2="32.71" width="0.127" layer="51"/>
+<wire x1="-1.17" y1="32.71" x2="9.45" y2="32.71" width="0.127" layer="51"/>
+<wire x1="9.45" y1="32.71" x2="9.45" y2="41.45" width="0.127" layer="51"/>
+<wire x1="9.45" y1="41.45" x2="-1.17" y2="41.45" width="0.127" layer="51"/>
+<wire x1="31.49775" y1="7.9845" x2="67.50225" y2="7.9845" width="0.127" layer="21"/>
+<wire x1="67.50225" y1="7.9845" x2="67.50225" y2="3.73" width="0.127" layer="21"/>
+<wire x1="31.49775" y1="7.9845" x2="31.49775" y2="3.73" width="0.127" layer="21"/>
+<wire x1="31.49775" y1="3.73" x2="32.99" y2="2.0155" width="0.127" layer="21"/>
+<wire x1="32.99" y1="2.0155" x2="66.01" y2="2.0155" width="0.127" layer="21"/>
+<wire x1="66.01" y1="2.0155" x2="67.50225" y2="3.73" width="0.127" layer="21"/>
+<wire x1="32.99" y1="6.9685" x2="66.01" y2="6.9685" width="0.127" layer="21"/>
+<wire x1="66.01" y1="6.9685" x2="66.01" y2="3.0315" width="0.127" layer="21"/>
+<wire x1="66.01" y1="3.0315" x2="32.99" y2="3.0315" width="0.127" layer="21"/>
+<wire x1="32.99" y1="3.0315" x2="32.99" y2="6.9685" width="0.127" layer="21"/>
+<smd name="MC2.1" x="33.89805" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<hole x="32.25975" y="7.032" drill="0.889"/>
+<smd name="MC2.2" x="33.89805" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.3" x="34.69815" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.4" x="34.69815" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.5" x="35.49825" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.6" x="35.49825" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.7" x="36.29835" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.8" x="36.29835" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.9" x="37.09845" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.10" x="37.09845" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.11" x="37.89855" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.12" x="37.89855" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.13" x="38.69865" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.14" x="38.69865" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.15" x="39.49875" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.16" x="39.49875" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.17" x="40.29885" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.18" x="40.29885" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.19" x="41.09895" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.20" x="41.09895" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.21" x="41.89905" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.22" x="41.89905" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.23" x="42.69915" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.24" x="42.69915" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.25" x="43.49925" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.26" x="43.49925" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.27" x="44.29935" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.28" x="44.29935" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.29" x="45.09945" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.30" x="45.09945" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.31" x="45.89955" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.32" x="45.89955" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.33" x="46.69965" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.34" x="46.69965" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.35" x="47.49975" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.36" x="47.49975" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.37" x="48.29985" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.38" x="48.29985" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.39" x="49.09995" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.40" x="49.09995" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.41" x="49.90005" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.42" x="49.90005" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.43" x="50.70015" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.44" x="50.70015" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.45" x="51.50025" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.46" x="51.50025" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.47" x="52.30035" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.48" x="52.30035" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.49" x="53.10045" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.50" x="53.10045" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.51" x="53.90055" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.52" x="53.90055" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.53" x="54.70065" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.54" x="54.70065" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.55" x="55.50075" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.56" x="55.50075" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.57" x="56.30085" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.58" x="56.30085" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.59" x="57.10095" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.60" x="57.10095" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.61" x="57.90105" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.62" x="57.90105" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.63" x="58.70115" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.64" x="58.70115" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.65" x="59.50125" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.66" x="59.50125" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.67" x="60.30135" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.68" x="60.30135" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.69" x="61.10145" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.70" x="61.10145" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.71" x="61.90155" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.72" x="61.90155" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.73" x="62.70165" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.74" x="62.70165" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.75" x="63.50175" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.76" x="63.50175" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.77" x="64.30185" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.78" x="64.30185" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.79" x="65.10195" y="8.175" dx="0.3048" dy="1.27" layer="1"/>
+<smd name="MC2.80" x="65.10195" y="1.825" dx="0.3048" dy="1.27" layer="1"/>
+<hole x="66.74025" y="7.032" drill="0.889"/>
+<text x="-6.35" y="25.4" size="2.54" layer="51" rot="R270" align="center">XEM3710</text>
+</package>
 </packages>
 <symbols>
 <symbol name="THS788">
@@ -1711,6 +1914,14 @@ http://www.analog.com/media/en/technical-documentation/data-sheets/AD8465.pdf
 <circle x="21.59" y="-2.54" radius="0.635" width="0.1524" layer="94"/>
 <wire x1="22.86" y1="-2.54" x2="22.225" y2="-2.54" width="0.1524" layer="94"/>
 <text x="15.24" y="0" size="1.27" layer="97" align="center">LVDS</text>
+</symbol>
+<symbol name="BOLTHOLE_CONDUCTIVE">
+<pin name="P" x="0" y="-5.08" visible="off" length="short" rot="R90"/>
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="2.032" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
+<text x="0" y="3.048" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2424,6 +2635,191 @@ http://www.ti.com/lit/ds/symlink/tps7a49.pdf</description>
 <connect gate="G$1" pin="VEE" pad="3 5 9 11 EPAD"/>
 <connect gate="G$1" pin="VN" pad="6"/>
 <connect gate="G$1" pin="VP" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="XEM7310" prefix="FPGA">
+<gates>
+<gate name="-MC1-O" symbol="CONN_BUS_40P" x="-17.78" y="48.26"/>
+<gate name="-MC1-E" symbol="CONN_BUS_40P" x="-5.08" y="48.26"/>
+<gate name="-MC2-O" symbol="CONN_BUS_40P" x="7.62" y="48.26"/>
+<gate name="-MC2-E" symbol="CONN_BUS_40P" x="20.32" y="48.26"/>
+<gate name="-BH1" symbol="BOLTHOLE_CONDUCTIVE" x="-12.7" y="-58.42"/>
+<gate name="-BH2" symbol="BOLTHOLE_CONDUCTIVE" x="-5.08" y="-58.42"/>
+<gate name="-BH3" symbol="BOLTHOLE_CONDUCTIVE" x="2.54" y="-58.42"/>
+<gate name="-BH4" symbol="BOLTHOLE_CONDUCTIVE" x="10.16" y="-58.42"/>
+</gates>
+<devices>
+<device name="" package="XEM7310">
+<connects>
+<connect gate="-BH1" pin="P" pad="BH1"/>
+<connect gate="-BH2" pin="P" pad="BH2"/>
+<connect gate="-BH3" pin="P" pad="BH3"/>
+<connect gate="-BH4" pin="P" pad="BH4"/>
+<connect gate="-MC1-E" pin="P1" pad="MC1.2"/>
+<connect gate="-MC1-E" pin="P10" pad="MC1.20"/>
+<connect gate="-MC1-E" pin="P11" pad="MC1.22"/>
+<connect gate="-MC1-E" pin="P12" pad="MC1.24"/>
+<connect gate="-MC1-E" pin="P13" pad="MC1.26"/>
+<connect gate="-MC1-E" pin="P14" pad="MC1.28"/>
+<connect gate="-MC1-E" pin="P15" pad="MC1.30"/>
+<connect gate="-MC1-E" pin="P16" pad="MC1.32"/>
+<connect gate="-MC1-E" pin="P17" pad="MC1.34"/>
+<connect gate="-MC1-E" pin="P18" pad="MC1.36"/>
+<connect gate="-MC1-E" pin="P19" pad="MC1.38"/>
+<connect gate="-MC1-E" pin="P2" pad="MC1.4"/>
+<connect gate="-MC1-E" pin="P20" pad="MC1.40"/>
+<connect gate="-MC1-E" pin="P21" pad="MC1.42"/>
+<connect gate="-MC1-E" pin="P22" pad="MC1.44"/>
+<connect gate="-MC1-E" pin="P23" pad="MC1.46"/>
+<connect gate="-MC1-E" pin="P24" pad="MC1.48"/>
+<connect gate="-MC1-E" pin="P25" pad="MC1.50"/>
+<connect gate="-MC1-E" pin="P26" pad="MC1.52"/>
+<connect gate="-MC1-E" pin="P27" pad="MC1.54"/>
+<connect gate="-MC1-E" pin="P28" pad="MC1.56"/>
+<connect gate="-MC1-E" pin="P29" pad="MC1.58"/>
+<connect gate="-MC1-E" pin="P3" pad="MC1.6"/>
+<connect gate="-MC1-E" pin="P30" pad="MC1.60"/>
+<connect gate="-MC1-E" pin="P31" pad="MC1.62"/>
+<connect gate="-MC1-E" pin="P32" pad="MC1.64"/>
+<connect gate="-MC1-E" pin="P33" pad="MC1.66"/>
+<connect gate="-MC1-E" pin="P34" pad="MC1.68"/>
+<connect gate="-MC1-E" pin="P35" pad="MC1.70"/>
+<connect gate="-MC1-E" pin="P36" pad="MC1.72"/>
+<connect gate="-MC1-E" pin="P37" pad="MC1.74"/>
+<connect gate="-MC1-E" pin="P38" pad="MC1.76"/>
+<connect gate="-MC1-E" pin="P39" pad="MC1.78"/>
+<connect gate="-MC1-E" pin="P4" pad="MC1.8"/>
+<connect gate="-MC1-E" pin="P40" pad="MC1.80"/>
+<connect gate="-MC1-E" pin="P5" pad="MC1.10"/>
+<connect gate="-MC1-E" pin="P6" pad="MC1.12"/>
+<connect gate="-MC1-E" pin="P7" pad="MC1.14"/>
+<connect gate="-MC1-E" pin="P8" pad="MC1.16"/>
+<connect gate="-MC1-E" pin="P9" pad="MC1.18"/>
+<connect gate="-MC1-O" pin="P1" pad="MC1.1"/>
+<connect gate="-MC1-O" pin="P10" pad="MC1.19"/>
+<connect gate="-MC1-O" pin="P11" pad="MC1.21"/>
+<connect gate="-MC1-O" pin="P12" pad="MC1.23"/>
+<connect gate="-MC1-O" pin="P13" pad="MC1.25"/>
+<connect gate="-MC1-O" pin="P14" pad="MC1.27"/>
+<connect gate="-MC1-O" pin="P15" pad="MC1.29"/>
+<connect gate="-MC1-O" pin="P16" pad="MC1.31"/>
+<connect gate="-MC1-O" pin="P17" pad="MC1.33"/>
+<connect gate="-MC1-O" pin="P18" pad="MC1.35"/>
+<connect gate="-MC1-O" pin="P19" pad="MC1.37"/>
+<connect gate="-MC1-O" pin="P2" pad="MC1.3"/>
+<connect gate="-MC1-O" pin="P20" pad="MC1.39"/>
+<connect gate="-MC1-O" pin="P21" pad="MC1.41"/>
+<connect gate="-MC1-O" pin="P22" pad="MC1.43"/>
+<connect gate="-MC1-O" pin="P23" pad="MC1.45"/>
+<connect gate="-MC1-O" pin="P24" pad="MC1.47"/>
+<connect gate="-MC1-O" pin="P25" pad="MC1.49"/>
+<connect gate="-MC1-O" pin="P26" pad="MC1.51"/>
+<connect gate="-MC1-O" pin="P27" pad="MC1.53"/>
+<connect gate="-MC1-O" pin="P28" pad="MC1.55"/>
+<connect gate="-MC1-O" pin="P29" pad="MC1.57"/>
+<connect gate="-MC1-O" pin="P3" pad="MC1.5"/>
+<connect gate="-MC1-O" pin="P30" pad="MC1.59"/>
+<connect gate="-MC1-O" pin="P31" pad="MC1.61"/>
+<connect gate="-MC1-O" pin="P32" pad="MC1.63"/>
+<connect gate="-MC1-O" pin="P33" pad="MC1.65"/>
+<connect gate="-MC1-O" pin="P34" pad="MC1.67"/>
+<connect gate="-MC1-O" pin="P35" pad="MC1.69"/>
+<connect gate="-MC1-O" pin="P36" pad="MC1.71"/>
+<connect gate="-MC1-O" pin="P37" pad="MC1.73"/>
+<connect gate="-MC1-O" pin="P38" pad="MC1.75"/>
+<connect gate="-MC1-O" pin="P39" pad="MC1.77"/>
+<connect gate="-MC1-O" pin="P4" pad="MC1.7"/>
+<connect gate="-MC1-O" pin="P40" pad="MC1.79"/>
+<connect gate="-MC1-O" pin="P5" pad="MC1.9"/>
+<connect gate="-MC1-O" pin="P6" pad="MC1.11"/>
+<connect gate="-MC1-O" pin="P7" pad="MC1.13"/>
+<connect gate="-MC1-O" pin="P8" pad="MC1.15"/>
+<connect gate="-MC1-O" pin="P9" pad="MC1.17"/>
+<connect gate="-MC2-E" pin="P1" pad="MC2.2"/>
+<connect gate="-MC2-E" pin="P10" pad="MC2.20"/>
+<connect gate="-MC2-E" pin="P11" pad="MC2.22"/>
+<connect gate="-MC2-E" pin="P12" pad="MC2.24"/>
+<connect gate="-MC2-E" pin="P13" pad="MC2.26"/>
+<connect gate="-MC2-E" pin="P14" pad="MC2.28"/>
+<connect gate="-MC2-E" pin="P15" pad="MC2.30"/>
+<connect gate="-MC2-E" pin="P16" pad="MC2.32"/>
+<connect gate="-MC2-E" pin="P17" pad="MC2.34"/>
+<connect gate="-MC2-E" pin="P18" pad="MC2.36"/>
+<connect gate="-MC2-E" pin="P19" pad="MC2.38"/>
+<connect gate="-MC2-E" pin="P2" pad="MC2.4"/>
+<connect gate="-MC2-E" pin="P20" pad="MC2.40"/>
+<connect gate="-MC2-E" pin="P21" pad="MC2.42"/>
+<connect gate="-MC2-E" pin="P22" pad="MC2.44"/>
+<connect gate="-MC2-E" pin="P23" pad="MC2.46"/>
+<connect gate="-MC2-E" pin="P24" pad="MC2.48"/>
+<connect gate="-MC2-E" pin="P25" pad="MC2.50"/>
+<connect gate="-MC2-E" pin="P26" pad="MC2.52"/>
+<connect gate="-MC2-E" pin="P27" pad="MC2.54"/>
+<connect gate="-MC2-E" pin="P28" pad="MC2.56"/>
+<connect gate="-MC2-E" pin="P29" pad="MC2.58"/>
+<connect gate="-MC2-E" pin="P3" pad="MC2.6"/>
+<connect gate="-MC2-E" pin="P30" pad="MC2.60"/>
+<connect gate="-MC2-E" pin="P31" pad="MC2.62"/>
+<connect gate="-MC2-E" pin="P32" pad="MC2.64"/>
+<connect gate="-MC2-E" pin="P33" pad="MC2.66"/>
+<connect gate="-MC2-E" pin="P34" pad="MC2.68"/>
+<connect gate="-MC2-E" pin="P35" pad="MC2.70"/>
+<connect gate="-MC2-E" pin="P36" pad="MC2.72"/>
+<connect gate="-MC2-E" pin="P37" pad="MC2.74"/>
+<connect gate="-MC2-E" pin="P38" pad="MC2.76"/>
+<connect gate="-MC2-E" pin="P39" pad="MC2.78"/>
+<connect gate="-MC2-E" pin="P4" pad="MC2.8"/>
+<connect gate="-MC2-E" pin="P40" pad="MC2.80"/>
+<connect gate="-MC2-E" pin="P5" pad="MC2.10"/>
+<connect gate="-MC2-E" pin="P6" pad="MC2.12"/>
+<connect gate="-MC2-E" pin="P7" pad="MC2.14"/>
+<connect gate="-MC2-E" pin="P8" pad="MC2.16"/>
+<connect gate="-MC2-E" pin="P9" pad="MC2.18"/>
+<connect gate="-MC2-O" pin="P1" pad="MC2.1"/>
+<connect gate="-MC2-O" pin="P10" pad="MC2.19"/>
+<connect gate="-MC2-O" pin="P11" pad="MC2.21"/>
+<connect gate="-MC2-O" pin="P12" pad="MC2.23"/>
+<connect gate="-MC2-O" pin="P13" pad="MC2.25"/>
+<connect gate="-MC2-O" pin="P14" pad="MC2.27"/>
+<connect gate="-MC2-O" pin="P15" pad="MC2.29"/>
+<connect gate="-MC2-O" pin="P16" pad="MC2.31"/>
+<connect gate="-MC2-O" pin="P17" pad="MC2.33"/>
+<connect gate="-MC2-O" pin="P18" pad="MC2.35"/>
+<connect gate="-MC2-O" pin="P19" pad="MC2.37"/>
+<connect gate="-MC2-O" pin="P2" pad="MC2.3"/>
+<connect gate="-MC2-O" pin="P20" pad="MC2.39"/>
+<connect gate="-MC2-O" pin="P21" pad="MC2.41"/>
+<connect gate="-MC2-O" pin="P22" pad="MC2.43"/>
+<connect gate="-MC2-O" pin="P23" pad="MC2.45"/>
+<connect gate="-MC2-O" pin="P24" pad="MC2.47"/>
+<connect gate="-MC2-O" pin="P25" pad="MC2.49"/>
+<connect gate="-MC2-O" pin="P26" pad="MC2.51"/>
+<connect gate="-MC2-O" pin="P27" pad="MC2.53"/>
+<connect gate="-MC2-O" pin="P28" pad="MC2.55"/>
+<connect gate="-MC2-O" pin="P29" pad="MC2.57"/>
+<connect gate="-MC2-O" pin="P3" pad="MC2.5"/>
+<connect gate="-MC2-O" pin="P30" pad="MC2.59"/>
+<connect gate="-MC2-O" pin="P31" pad="MC2.61"/>
+<connect gate="-MC2-O" pin="P32" pad="MC2.63"/>
+<connect gate="-MC2-O" pin="P33" pad="MC2.65"/>
+<connect gate="-MC2-O" pin="P34" pad="MC2.67"/>
+<connect gate="-MC2-O" pin="P35" pad="MC2.69"/>
+<connect gate="-MC2-O" pin="P36" pad="MC2.71"/>
+<connect gate="-MC2-O" pin="P37" pad="MC2.73"/>
+<connect gate="-MC2-O" pin="P38" pad="MC2.75"/>
+<connect gate="-MC2-O" pin="P39" pad="MC2.77"/>
+<connect gate="-MC2-O" pin="P4" pad="MC2.7"/>
+<connect gate="-MC2-O" pin="P40" pad="MC2.79"/>
+<connect gate="-MC2-O" pin="P5" pad="MC2.9"/>
+<connect gate="-MC2-O" pin="P6" pad="MC2.11"/>
+<connect gate="-MC2-O" pin="P7" pad="MC2.13"/>
+<connect gate="-MC2-O" pin="P8" pad="MC2.15"/>
+<connect gate="-MC2-O" pin="P9" pad="MC2.17"/>
 </connects>
 <technologies>
 <technology name=""/>
